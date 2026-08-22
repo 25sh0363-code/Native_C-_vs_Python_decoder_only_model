@@ -1,1 +1,9 @@
+data/*.txt
+data/*.bin
+data/*.npy
+checkpoints/
+__pycache__/
+*.pyc
+.venv/
+.env
 .DS_Store
