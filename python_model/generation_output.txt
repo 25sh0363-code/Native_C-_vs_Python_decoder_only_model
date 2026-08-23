@@ -1,0 +1,9 @@
+Prompt: A small dog found a shiny blue ball
+
+Output:
+A small dog found a shiny blue ball. The dog wanted the ball, so he took it from the dog. The dog was sad and did not know what to do.
+Then, a big bird came and took the ball away. The dog and the cat were very sad. They did not get the ball back. The dog and the cat learned that they should not take things that do not belong to them.
+
+Tokens generated: 76
+Time taken: 3.15 sec
+Tokens/sec: 24.10

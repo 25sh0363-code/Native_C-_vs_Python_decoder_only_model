@@ -1,0 +1,2102 @@
+nohup: ignoring input
+Using GPU: NVIDIA GeForce RTX 4090
+Step 0: loss = 236.2910, lr = 0.000000, speed = 7220 tok/s
+Peak VRAM: 6.58 GB
+Step 100: loss = 36.2045, lr = 0.000060, speed = 60273 tok/s
+Peak VRAM: 6.84 GB
+Step 200: loss = 23.1616, lr = 0.000120, speed = 62600 tok/s
+Peak VRAM: 6.84 GB
+Step 300: loss = 15.7100, lr = 0.000180, speed = 63279 tok/s
+Peak VRAM: 6.84 GB
+Step 400: loss = 10.6658, lr = 0.000240, speed = 63656 tok/s
+Peak VRAM: 6.84 GB
+Step 500: loss = 8.0858, lr = 0.000300, speed = 63876 tok/s
+Peak VRAM: 6.84 GB
+Step 600: loss = 6.3534, lr = 0.000300, speed = 64078 tok/s
+Peak VRAM: 6.84 GB
+Step 700: loss = 5.5919, lr = 0.000300, speed = 64181 tok/s
+Peak VRAM: 6.84 GB
+Step 800: loss = 4.8856, lr = 0.000300, speed = 64300 tok/s
+Peak VRAM: 6.84 GB
+Step 900: loss = 4.8938, lr = 0.000300, speed = 64372 tok/s
+Peak VRAM: 6.84 GB
+Step 1000: loss = 4.4995, lr = 0.000300, speed = 64406 tok/s
+Peak VRAM: 6.84 GB
+Step 1000: validation loss = 4.3547
+Step 1100: loss = 4.3203, lr = 0.000300, speed = 58044 tok/s
+Peak VRAM: 6.84 GB
+Step 1200: loss = 4.1447, lr = 0.000300, speed = 58555 tok/s
+Peak VRAM: 6.84 GB
+Step 1300: loss = 4.0074, lr = 0.000300, speed = 59015 tok/s
+Peak VRAM: 6.84 GB
+Step 1400: loss = 3.8961, lr = 0.000300, speed = 59412 tok/s
+Peak VRAM: 6.84 GB
+Step 1500: loss = 3.9351, lr = 0.000300, speed = 59750 tok/s
+Peak VRAM: 6.84 GB
+Step 1600: loss = 3.6870, lr = 0.000300, speed = 60047 tok/s
+Peak VRAM: 6.84 GB
+Step 1700: loss = 3.6829, lr = 0.000300, speed = 60324 tok/s
+Peak VRAM: 6.84 GB
+Step 1800: loss = 3.6243, lr = 0.000300, speed = 60577 tok/s
+Peak VRAM: 6.84 GB
+Step 1900: loss = 3.4941, lr = 0.000300, speed = 60805 tok/s
+Peak VRAM: 6.84 GB
+Step 2000: loss = 3.5289, lr = 0.000300, speed = 61004 tok/s
+Peak VRAM: 6.84 GB
+Step 2000: validation loss = 3.4290
+Step 2100: loss = 3.4853, lr = 0.000300, speed = 57911 tok/s
+Peak VRAM: 6.84 GB
+Step 2200: loss = 3.3420, lr = 0.000300, speed = 58195 tok/s
+Peak VRAM: 6.84 GB
+Step 2300: loss = 3.3909, lr = 0.000300, speed = 58457 tok/s
+Peak VRAM: 6.84 GB
+Step 2400: loss = 3.3945, lr = 0.000300, speed = 58710 tok/s
+Peak VRAM: 6.84 GB
+Step 2500: loss = 3.3391, lr = 0.000300, speed = 58937 tok/s
+Peak VRAM: 6.84 GB
+Step 2600: loss = 3.3982, lr = 0.000300, speed = 59156 tok/s
+Peak VRAM: 6.84 GB
+Step 2700: loss = 3.1980, lr = 0.000300, speed = 59352 tok/s
+Peak VRAM: 6.84 GB
+Step 2800: loss = 3.0594, lr = 0.000300, speed = 59538 tok/s
+Peak VRAM: 6.84 GB
+Step 2900: loss = 3.0334, lr = 0.000300, speed = 59706 tok/s
+Peak VRAM: 6.84 GB
+Step 3000: loss = 3.0703, lr = 0.000300, speed = 59870 tok/s
+Peak VRAM: 6.84 GB
+Step 3000: validation loss = 2.9687
+Step 3100: loss = 2.9794, lr = 0.000299, speed = 57844 tok/s
+Peak VRAM: 6.84 GB
+Step 3200: loss = 3.0765, lr = 0.000299, speed = 58040 tok/s
+Peak VRAM: 6.84 GB
+Step 3300: loss = 2.9782, lr = 0.000299, speed = 58223 tok/s
+Peak VRAM: 6.84 GB
+Step 3400: loss = 2.8374, lr = 0.000299, speed = 58406 tok/s
+Peak VRAM: 6.84 GB
+Step 3500: loss = 2.8176, lr = 0.000299, speed = 58580 tok/s
+Peak VRAM: 6.84 GB
+Step 3600: loss = 2.8547, lr = 0.000299, speed = 58746 tok/s
+Peak VRAM: 6.84 GB
+Step 3700: loss = 2.8367, lr = 0.000299, speed = 58898 tok/s
+Peak VRAM: 6.84 GB
+Step 3800: loss = 2.7989, lr = 0.000299, speed = 59044 tok/s
+Peak VRAM: 6.84 GB
+Step 3900: loss = 2.7278, lr = 0.000299, speed = 59180 tok/s
+Peak VRAM: 6.84 GB
+Step 4000: loss = 2.7152, lr = 0.000299, speed = 59307 tok/s
+Peak VRAM: 6.84 GB
+Step 4000: validation loss = 2.6671
+Step 4100: loss = 2.6556, lr = 0.000299, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 4200: loss = 2.7631, lr = 0.000299, speed = 57958 tok/s
+Peak VRAM: 6.84 GB
+Step 4300: loss = 2.5301, lr = 0.000299, speed = 58109 tok/s
+Peak VRAM: 6.84 GB
+Step 4400: loss = 2.8156, lr = 0.000299, speed = 58249 tok/s
+Peak VRAM: 6.84 GB
+Step 4500: loss = 2.7470, lr = 0.000299, speed = 58381 tok/s
+Peak VRAM: 6.84 GB
+Step 4600: loss = 2.6465, lr = 0.000299, speed = 58508 tok/s
+Peak VRAM: 6.84 GB
+Step 4700: loss = 2.6831, lr = 0.000299, speed = 58634 tok/s
+Peak VRAM: 6.84 GB
+Step 4800: loss = 2.6559, lr = 0.000299, speed = 58757 tok/s
+Peak VRAM: 6.84 GB
+Step 4900: loss = 2.6304, lr = 0.000299, speed = 58871 tok/s
+Peak VRAM: 6.84 GB
+Step 5000: loss = 2.5750, lr = 0.000298, speed = 58983 tok/s
+Peak VRAM: 6.84 GB
+Step 5000: validation loss = 2.4841
+Step 5100: loss = 2.5836, lr = 0.000298, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 5200: loss = 2.4612, lr = 0.000298, speed = 57910 tok/s
+Peak VRAM: 6.84 GB
+Step 5300: loss = 2.5066, lr = 0.000298, speed = 58028 tok/s
+Peak VRAM: 6.84 GB
+Step 5400: loss = 2.6340, lr = 0.000298, speed = 58147 tok/s
+Peak VRAM: 6.84 GB
+Step 5500: loss = 2.5443, lr = 0.000298, speed = 58256 tok/s
+Peak VRAM: 6.84 GB
+Step 5600: loss = 2.3788, lr = 0.000298, speed = 58363 tok/s
+Peak VRAM: 6.84 GB
+Step 5700: loss = 2.5636, lr = 0.000298, speed = 58467 tok/s
+Peak VRAM: 6.84 GB
+Step 5800: loss = 2.4097, lr = 0.000298, speed = 58571 tok/s
+Peak VRAM: 6.84 GB
+Step 5900: loss = 2.6290, lr = 0.000298, speed = 58670 tok/s
+Peak VRAM: 6.84 GB
+Step 6000: loss = 2.2750, lr = 0.000298, speed = 58762 tok/s
+Peak VRAM: 6.84 GB
+Step 6000: validation loss = 2.3602
+Step 6100: loss = 2.5202, lr = 0.000298, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 6200: loss = 2.2539, lr = 0.000298, speed = 57870 tok/s
+Peak VRAM: 6.84 GB
+Step 6300: loss = 2.4290, lr = 0.000297, speed = 57970 tok/s
+Peak VRAM: 6.84 GB
+Step 6400: loss = 2.3991, lr = 0.000297, speed = 58066 tok/s
+Peak VRAM: 6.84 GB
+Step 6500: loss = 2.4247, lr = 0.000297, speed = 58160 tok/s
+Peak VRAM: 6.84 GB
+Step 6600: loss = 2.3743, lr = 0.000297, speed = 58253 tok/s
+Peak VRAM: 6.84 GB
+Step 6700: loss = 2.3356, lr = 0.000297, speed = 58342 tok/s
+Peak VRAM: 6.84 GB
+Step 6800: loss = 2.4021, lr = 0.000297, speed = 58429 tok/s
+Peak VRAM: 6.84 GB
+Step 6900: loss = 2.4599, lr = 0.000297, speed = 58516 tok/s
+Peak VRAM: 6.84 GB
+Step 7000: loss = 2.3274, lr = 0.000297, speed = 58599 tok/s
+Peak VRAM: 6.84 GB
+Step 7000: validation loss = 2.2450
+Step 7100: loss = 2.3456, lr = 0.000297, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 7200: loss = 2.2492, lr = 0.000297, speed = 57840 tok/s
+Peak VRAM: 6.84 GB
+Step 7300: loss = 2.3823, lr = 0.000297, speed = 57928 tok/s
+Peak VRAM: 6.84 GB
+Step 7400: loss = 2.2613, lr = 0.000296, speed = 58016 tok/s
+Peak VRAM: 6.84 GB
+Step 7500: loss = 2.1732, lr = 0.000296, speed = 58099 tok/s
+Peak VRAM: 6.84 GB
+Step 7600: loss = 2.2129, lr = 0.000296, speed = 58181 tok/s
+Peak VRAM: 6.84 GB
+Step 7700: loss = 2.3854, lr = 0.000296, speed = 58258 tok/s
+Peak VRAM: 6.84 GB
+Step 7800: loss = 2.2388, lr = 0.000296, speed = 58334 tok/s
+Peak VRAM: 6.84 GB
+Step 7900: loss = 2.4139, lr = 0.000296, speed = 58410 tok/s
+Peak VRAM: 6.84 GB
+Step 8000: loss = 2.2771, lr = 0.000296, speed = 58485 tok/s
+Peak VRAM: 6.84 GB
+Step 8000: validation loss = 2.1776
+Step 8100: loss = 2.3842, lr = 0.000296, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 8200: loss = 2.3167, lr = 0.000296, speed = 57820 tok/s
+Peak VRAM: 6.84 GB
+Step 8300: loss = 2.1632, lr = 0.000295, speed = 57896 tok/s
+Peak VRAM: 6.84 GB
+Step 8400: loss = 2.4747, lr = 0.000295, speed = 57970 tok/s
+Peak VRAM: 6.84 GB
+Step 8500: loss = 2.2935, lr = 0.000295, speed = 58043 tok/s
+Peak VRAM: 6.84 GB
+Step 8600: loss = 2.2130, lr = 0.000295, speed = 58115 tok/s
+Peak VRAM: 6.84 GB
+Step 8700: loss = 2.2975, lr = 0.000295, speed = 58187 tok/s
+Peak VRAM: 6.84 GB
+Step 8800: loss = 2.1891, lr = 0.000295, speed = 58254 tok/s
+Peak VRAM: 6.84 GB
+Step 8900: loss = 2.2407, lr = 0.000295, speed = 58322 tok/s
+Peak VRAM: 6.84 GB
+Step 9000: loss = 2.2166, lr = 0.000295, speed = 58387 tok/s
+Peak VRAM: 6.84 GB
+Step 9000: validation loss = 2.1014
+Step 9100: loss = 2.0662, lr = 0.000295, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 9200: loss = 2.1694, lr = 0.000294, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 9300: loss = 2.2570, lr = 0.000294, speed = 57867 tok/s
+Peak VRAM: 6.84 GB
+Step 9400: loss = 2.3684, lr = 0.000294, speed = 57936 tok/s
+Peak VRAM: 6.84 GB
+Step 9500: loss = 2.1954, lr = 0.000294, speed = 58001 tok/s
+Peak VRAM: 6.84 GB
+Step 9600: loss = 2.1592, lr = 0.000294, speed = 58067 tok/s
+Peak VRAM: 6.84 GB
+Step 9700: loss = 2.1615, lr = 0.000294, speed = 58131 tok/s
+Peak VRAM: 6.84 GB
+Step 9800: loss = 2.0811, lr = 0.000294, speed = 58192 tok/s
+Peak VRAM: 6.84 GB
+Step 9900: loss = 2.1514, lr = 0.000293, speed = 58255 tok/s
+Peak VRAM: 6.84 GB
+Step 10000: loss = 2.1138, lr = 0.000293, speed = 58316 tok/s
+Peak VRAM: 6.84 GB
+Step 10000: validation loss = 2.0457
+Step 10100: loss = 2.2676, lr = 0.000293, speed = 57727 tok/s
+Peak VRAM: 6.84 GB
+Step 10200: loss = 2.1243, lr = 0.000293, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 10300: loss = 2.2610, lr = 0.000293, speed = 57852 tok/s
+Peak VRAM: 6.84 GB
+Step 10400: loss = 2.0518, lr = 0.000293, speed = 57914 tok/s
+Peak VRAM: 6.84 GB
+Step 10500: loss = 2.0989, lr = 0.000293, speed = 57975 tok/s
+Peak VRAM: 6.84 GB
+Step 10600: loss = 2.0995, lr = 0.000292, speed = 58034 tok/s
+Peak VRAM: 6.84 GB
+Step 10700: loss = 2.2468, lr = 0.000292, speed = 58092 tok/s
+Peak VRAM: 6.84 GB
+Step 10800: loss = 2.1369, lr = 0.000292, speed = 58151 tok/s
+Peak VRAM: 6.84 GB
+Step 10900: loss = 2.0269, lr = 0.000292, speed = 58207 tok/s
+Peak VRAM: 6.84 GB
+Step 11000: loss = 2.0739, lr = 0.000292, speed = 58261 tok/s
+Peak VRAM: 6.84 GB
+Step 11000: validation loss = 2.0168
+Step 11100: loss = 2.0962, lr = 0.000292, speed = 57725 tok/s
+Peak VRAM: 6.84 GB
+Step 11200: loss = 2.1071, lr = 0.000292, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 11300: loss = 2.0219, lr = 0.000291, speed = 57838 tok/s
+Peak VRAM: 6.84 GB
+Step 11400: loss = 2.0124, lr = 0.000291, speed = 57894 tok/s
+Peak VRAM: 6.84 GB
+Step 11500: loss = 2.1102, lr = 0.000291, speed = 57948 tok/s
+Peak VRAM: 6.84 GB
+Step 11600: loss = 2.0969, lr = 0.000291, speed = 58001 tok/s
+Peak VRAM: 6.84 GB
+Step 11700: loss = 2.0405, lr = 0.000291, speed = 58055 tok/s
+Peak VRAM: 6.84 GB
+Step 11800: loss = 1.9925, lr = 0.000291, speed = 58109 tok/s
+Peak VRAM: 6.84 GB
+Step 11900: loss = 1.9904, lr = 0.000290, speed = 58160 tok/s
+Peak VRAM: 6.84 GB
+Step 12000: loss = 2.1564, lr = 0.000290, speed = 58212 tok/s
+Peak VRAM: 6.84 GB
+Step 12000: validation loss = 1.9672
+Step 12100: loss = 2.0347, lr = 0.000290, speed = 57725 tok/s
+Peak VRAM: 6.84 GB
+Step 12200: loss = 1.9943, lr = 0.000290, speed = 57777 tok/s
+Peak VRAM: 6.84 GB
+Step 12300: loss = 2.0781, lr = 0.000290, speed = 57829 tok/s
+Peak VRAM: 6.84 GB
+Step 12400: loss = 2.0779, lr = 0.000290, speed = 57881 tok/s
+Peak VRAM: 6.84 GB
+Step 12500: loss = 2.1699, lr = 0.000289, speed = 57931 tok/s
+Peak VRAM: 6.84 GB
+Step 12600: loss = 1.9483, lr = 0.000289, speed = 57979 tok/s
+Peak VRAM: 6.84 GB
+Step 12700: loss = 1.9419, lr = 0.000289, speed = 58028 tok/s
+Peak VRAM: 6.84 GB
+Step 12800: loss = 1.9779, lr = 0.000289, speed = 58075 tok/s
+Peak VRAM: 6.84 GB
+Step 12900: loss = 2.0367, lr = 0.000289, speed = 58122 tok/s
+Peak VRAM: 6.84 GB
+Step 13000: loss = 2.1021, lr = 0.000288, speed = 58168 tok/s
+Peak VRAM: 6.84 GB
+Step 13000: validation loss = 1.9362
+Step 13100: loss = 2.0767, lr = 0.000288, speed = 57715 tok/s
+Peak VRAM: 6.84 GB
+Step 13200: loss = 2.0886, lr = 0.000288, speed = 57765 tok/s
+Peak VRAM: 6.84 GB
+Step 13300: loss = 2.1525, lr = 0.000288, speed = 57813 tok/s
+Peak VRAM: 6.84 GB
+Step 13400: loss = 1.9667, lr = 0.000288, speed = 57860 tok/s
+Peak VRAM: 6.84 GB
+Step 13500: loss = 1.9691, lr = 0.000288, speed = 57907 tok/s
+Peak VRAM: 6.84 GB
+Step 13600: loss = 2.0667, lr = 0.000287, speed = 57952 tok/s
+Peak VRAM: 6.84 GB
+Step 13700: loss = 2.1000, lr = 0.000287, speed = 57999 tok/s
+Peak VRAM: 6.84 GB
+Step 13800: loss = 1.9649, lr = 0.000287, speed = 58044 tok/s
+Peak VRAM: 6.84 GB
+Step 13900: loss = 1.8938, lr = 0.000287, speed = 58088 tok/s
+Peak VRAM: 6.84 GB
+Step 14000: loss = 1.8760, lr = 0.000287, speed = 58133 tok/s
+Peak VRAM: 6.84 GB
+Step 14000: validation loss = 1.9035
+Step 14100: loss = 1.9148, lr = 0.000286, speed = 57715 tok/s
+Peak VRAM: 6.84 GB
+Step 14200: loss = 1.9301, lr = 0.000286, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 14300: loss = 2.0084, lr = 0.000286, speed = 57806 tok/s
+Peak VRAM: 6.84 GB
+Step 14400: loss = 1.9600, lr = 0.000286, speed = 57853 tok/s
+Peak VRAM: 6.84 GB
+Step 14500: loss = 2.0450, lr = 0.000286, speed = 57896 tok/s
+Peak VRAM: 6.84 GB
+Step 14600: loss = 2.1600, lr = 0.000285, speed = 57939 tok/s
+Peak VRAM: 6.84 GB
+Step 14700: loss = 2.0457, lr = 0.000285, speed = 57981 tok/s
+Peak VRAM: 6.84 GB
+Step 14800: loss = 1.9987, lr = 0.000285, speed = 58023 tok/s
+Peak VRAM: 6.84 GB
+Step 14900: loss = 1.9113, lr = 0.000285, speed = 58064 tok/s
+Peak VRAM: 6.84 GB
+Step 15000: loss = 2.0558, lr = 0.000285, speed = 58105 tok/s
+Peak VRAM: 6.84 GB
+Step 15000: validation loss = 1.8766
+Step 15100: loss = 1.8856, lr = 0.000284, speed = 57713 tok/s
+Peak VRAM: 6.84 GB
+Step 15200: loss = 1.9297, lr = 0.000284, speed = 57756 tok/s
+Peak VRAM: 6.84 GB
+Step 15300: loss = 2.0161, lr = 0.000284, speed = 57797 tok/s
+Peak VRAM: 6.84 GB
+Step 15400: loss = 1.8994, lr = 0.000284, speed = 57838 tok/s
+Peak VRAM: 6.84 GB
+Step 15500: loss = 1.9498, lr = 0.000283, speed = 57878 tok/s
+Peak VRAM: 6.84 GB
+Step 15600: loss = 1.9240, lr = 0.000283, speed = 57919 tok/s
+Peak VRAM: 6.84 GB
+Step 15700: loss = 1.8993, lr = 0.000283, speed = 57959 tok/s
+Peak VRAM: 6.84 GB
+Step 15800: loss = 2.0412, lr = 0.000283, speed = 57999 tok/s
+Peak VRAM: 6.84 GB
+Step 15900: loss = 1.9479, lr = 0.000283, speed = 58038 tok/s
+Peak VRAM: 6.84 GB
+Step 16000: loss = 1.9529, lr = 0.000282, speed = 58077 tok/s
+Peak VRAM: 6.84 GB
+Step 16000: validation loss = 1.8603
+Step 16100: loss = 2.0377, lr = 0.000282, speed = 57710 tok/s
+Peak VRAM: 6.84 GB
+Step 16200: loss = 1.9039, lr = 0.000282, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 16300: loss = 2.0432, lr = 0.000282, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 16400: loss = 1.9314, lr = 0.000281, speed = 57830 tok/s
+Peak VRAM: 6.84 GB
+Step 16500: loss = 1.9718, lr = 0.000281, speed = 57870 tok/s
+Peak VRAM: 6.84 GB
+Step 16600: loss = 1.9320, lr = 0.000281, speed = 57908 tok/s
+Peak VRAM: 6.84 GB
+Step 16700: loss = 1.9397, lr = 0.000281, speed = 57945 tok/s
+Peak VRAM: 6.84 GB
+Step 16800: loss = 2.0486, lr = 0.000281, speed = 57983 tok/s
+Peak VRAM: 6.84 GB
+Step 16900: loss = 1.8791, lr = 0.000280, speed = 58020 tok/s
+Peak VRAM: 6.84 GB
+Step 17000: loss = 1.9593, lr = 0.000280, speed = 58057 tok/s
+Peak VRAM: 6.84 GB
+Step 17000: validation loss = 1.8339
+Step 17100: loss = 1.9778, lr = 0.000280, speed = 57712 tok/s
+Peak VRAM: 6.84 GB
+Step 17200: loss = 1.9912, lr = 0.000280, speed = 57749 tok/s
+Peak VRAM: 6.84 GB
+Step 17300: loss = 1.8141, lr = 0.000279, speed = 57785 tok/s
+Peak VRAM: 6.84 GB
+Step 17400: loss = 1.8124, lr = 0.000279, speed = 57822 tok/s
+Peak VRAM: 6.84 GB
+Step 17500: loss = 1.9442, lr = 0.000279, speed = 57858 tok/s
+Peak VRAM: 6.84 GB
+Step 17600: loss = 1.8651, lr = 0.000279, speed = 57894 tok/s
+Peak VRAM: 6.84 GB
+Step 17700: loss = 1.9243, lr = 0.000278, speed = 57929 tok/s
+Peak VRAM: 6.84 GB
+Step 17800: loss = 1.8352, lr = 0.000278, speed = 57964 tok/s
+Peak VRAM: 6.84 GB
+Step 17900: loss = 1.8816, lr = 0.000278, speed = 57999 tok/s
+Peak VRAM: 6.84 GB
+Step 18000: loss = 1.8813, lr = 0.000278, speed = 58034 tok/s
+Peak VRAM: 6.84 GB
+Step 18000: validation loss = 1.8201
+Step 18100: loss = 1.8458, lr = 0.000277, speed = 57708 tok/s
+Peak VRAM: 6.84 GB
+Step 18200: loss = 1.9250, lr = 0.000277, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 18300: loss = 1.8168, lr = 0.000277, speed = 57777 tok/s
+Peak VRAM: 6.84 GB
+Step 18400: loss = 1.9979, lr = 0.000277, speed = 57813 tok/s
+Peak VRAM: 6.84 GB
+Step 18500: loss = 1.8517, lr = 0.000276, speed = 57847 tok/s
+Peak VRAM: 6.84 GB
+Step 18600: loss = 1.9926, lr = 0.000276, speed = 57881 tok/s
+Peak VRAM: 6.84 GB
+Step 18700: loss = 1.7607, lr = 0.000276, speed = 57915 tok/s
+Peak VRAM: 6.84 GB
+Step 18800: loss = 1.9552, lr = 0.000276, speed = 57949 tok/s
+Peak VRAM: 6.84 GB
+Step 18900: loss = 1.8613, lr = 0.000275, speed = 57982 tok/s
+Peak VRAM: 6.84 GB
+Step 19000: loss = 1.9592, lr = 0.000275, speed = 58015 tok/s
+Peak VRAM: 6.84 GB
+Step 19000: validation loss = 1.7967
+Step 19100: loss = 1.8079, lr = 0.000275, speed = 57706 tok/s
+Peak VRAM: 6.84 GB
+Step 19200: loss = 1.9098, lr = 0.000275, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 19300: loss = 1.8086, lr = 0.000274, speed = 57773 tok/s
+Peak VRAM: 6.84 GB
+Step 19400: loss = 1.8885, lr = 0.000274, speed = 57808 tok/s
+Peak VRAM: 6.84 GB
+Step 19500: loss = 1.9156, lr = 0.000274, speed = 57840 tok/s
+Peak VRAM: 6.84 GB
+Step 19600: loss = 1.8345, lr = 0.000274, speed = 57874 tok/s
+Peak VRAM: 6.84 GB
+Step 19700: loss = 1.7772, lr = 0.000273, speed = 57906 tok/s
+Peak VRAM: 6.84 GB
+Step 19800: loss = 1.8931, lr = 0.000273, speed = 57938 tok/s
+Peak VRAM: 6.84 GB
+Step 19900: loss = 1.8737, lr = 0.000273, speed = 57968 tok/s
+Peak VRAM: 6.84 GB
+Step 20000: loss = 1.9530, lr = 0.000272, speed = 58001 tok/s
+Peak VRAM: 6.84 GB
+Step 20000: validation loss = 1.7720
+Step 20100: loss = 1.7858, lr = 0.000272, speed = 57707 tok/s
+Peak VRAM: 6.84 GB
+Step 20200: loss = 1.9238, lr = 0.000272, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 20300: loss = 1.8955, lr = 0.000272, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 20400: loss = 1.8874, lr = 0.000271, speed = 57804 tok/s
+Peak VRAM: 6.84 GB
+Step 20500: loss = 1.9463, lr = 0.000271, speed = 57835 tok/s
+Peak VRAM: 6.84 GB
+Step 20600: loss = 1.9756, lr = 0.000271, speed = 57865 tok/s
+Peak VRAM: 6.84 GB
+Step 20700: loss = 1.8593, lr = 0.000271, speed = 57896 tok/s
+Peak VRAM: 6.84 GB
+Step 20800: loss = 1.8902, lr = 0.000270, speed = 57927 tok/s
+Peak VRAM: 6.84 GB
+Step 20900: loss = 1.8993, lr = 0.000270, speed = 57958 tok/s
+Peak VRAM: 6.84 GB
+Step 21000: loss = 1.8158, lr = 0.000270, speed = 57988 tok/s
+Peak VRAM: 6.84 GB
+Step 21000: validation loss = 1.7712
+Step 21100: loss = 1.8734, lr = 0.000269, speed = 57708 tok/s
+Peak VRAM: 6.84 GB
+Step 21200: loss = 1.7567, lr = 0.000269, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 21300: loss = 1.9488, lr = 0.000269, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 21400: loss = 1.8104, lr = 0.000269, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 21500: loss = 1.9112, lr = 0.000268, speed = 57831 tok/s
+Peak VRAM: 6.84 GB
+Step 21600: loss = 1.8316, lr = 0.000268, speed = 57860 tok/s
+Peak VRAM: 6.84 GB
+Step 21700: loss = 1.8052, lr = 0.000268, speed = 57891 tok/s
+Peak VRAM: 6.84 GB
+Step 21800: loss = 1.7574, lr = 0.000267, speed = 57919 tok/s
+Peak VRAM: 6.84 GB
+Step 21900: loss = 1.7454, lr = 0.000267, speed = 57948 tok/s
+Peak VRAM: 6.84 GB
+Step 22000: loss = 1.8330, lr = 0.000267, speed = 57977 tok/s
+Peak VRAM: 6.84 GB
+Step 22000: validation loss = 1.7449
+Step 22100: loss = 1.8510, lr = 0.000266, speed = 57711 tok/s
+Peak VRAM: 6.84 GB
+Step 22200: loss = 1.8898, lr = 0.000266, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 22300: loss = 1.9302, lr = 0.000266, speed = 57769 tok/s
+Peak VRAM: 6.84 GB
+Step 22400: loss = 1.7482, lr = 0.000266, speed = 57798 tok/s
+Peak VRAM: 6.84 GB
+Step 22500: loss = 1.8104, lr = 0.000265, speed = 57827 tok/s
+Peak VRAM: 6.84 GB
+Step 22600: loss = 1.8218, lr = 0.000265, speed = 57855 tok/s
+Peak VRAM: 6.84 GB
+Step 22700: loss = 1.9312, lr = 0.000265, speed = 57883 tok/s
+Peak VRAM: 6.84 GB
+Step 22800: loss = 1.7942, lr = 0.000264, speed = 57910 tok/s
+Peak VRAM: 6.84 GB
+Step 22900: loss = 1.9654, lr = 0.000264, speed = 57938 tok/s
+Peak VRAM: 6.84 GB
+Step 23000: loss = 1.8549, lr = 0.000264, speed = 57965 tok/s
+Peak VRAM: 6.84 GB
+Step 23000: validation loss = 1.7349
+Step 23100: loss = 1.9205, lr = 0.000263, speed = 57710 tok/s
+Peak VRAM: 6.84 GB
+Step 23200: loss = 1.7627, lr = 0.000263, speed = 57738 tok/s
+Peak VRAM: 6.84 GB
+Step 23300: loss = 1.8675, lr = 0.000263, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 23400: loss = 1.7621, lr = 0.000262, speed = 57793 tok/s
+Peak VRAM: 6.84 GB
+Step 23500: loss = 1.7299, lr = 0.000262, speed = 57820 tok/s
+Peak VRAM: 6.84 GB
+Step 23600: loss = 1.7461, lr = 0.000262, speed = 57847 tok/s
+Peak VRAM: 6.84 GB
+Step 23700: loss = 1.8416, lr = 0.000262, speed = 57875 tok/s
+Peak VRAM: 6.84 GB
+Step 23800: loss = 1.8029, lr = 0.000261, speed = 57903 tok/s
+Peak VRAM: 6.84 GB
+Step 23900: loss = 1.8858, lr = 0.000261, speed = 57931 tok/s
+Peak VRAM: 6.84 GB
+Step 24000: loss = 1.7322, lr = 0.000261, speed = 57957 tok/s
+Peak VRAM: 6.84 GB
+Step 24000: validation loss = 1.7193
+Step 24100: loss = 1.7818, lr = 0.000260, speed = 57714 tok/s
+Peak VRAM: 6.84 GB
+Step 24200: loss = 1.8070, lr = 0.000260, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 24300: loss = 1.7303, lr = 0.000260, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 24400: loss = 1.7085, lr = 0.000259, speed = 57796 tok/s
+Peak VRAM: 6.84 GB
+Step 24500: loss = 1.8328, lr = 0.000259, speed = 57822 tok/s
+Peak VRAM: 6.84 GB
+Step 24600: loss = 1.7492, lr = 0.000259, speed = 57849 tok/s
+Peak VRAM: 6.84 GB
+Step 24700: loss = 1.8321, lr = 0.000258, speed = 57876 tok/s
+Peak VRAM: 6.84 GB
+Step 24800: loss = 1.7556, lr = 0.000258, speed = 57902 tok/s
+Peak VRAM: 6.84 GB
+Step 24900: loss = 1.9267, lr = 0.000258, speed = 57928 tok/s
+Peak VRAM: 6.84 GB
+Step 25000: loss = 1.8668, lr = 0.000257, speed = 57953 tok/s
+Peak VRAM: 6.84 GB
+Step 25000: validation loss = 1.7039
+Step 25100: loss = 1.8309, lr = 0.000257, speed = 57719 tok/s
+Peak VRAM: 6.84 GB
+Step 25200: loss = 1.8323, lr = 0.000257, speed = 57745 tok/s
+Peak VRAM: 6.84 GB
+Step 25300: loss = 1.7821, lr = 0.000256, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 25400: loss = 1.7052, lr = 0.000256, speed = 57796 tok/s
+Peak VRAM: 6.84 GB
+Step 25500: loss = 1.8363, lr = 0.000256, speed = 57821 tok/s
+Peak VRAM: 6.84 GB
+Step 25600: loss = 1.8741, lr = 0.000255, speed = 57846 tok/s
+Peak VRAM: 6.84 GB
+Step 25700: loss = 1.7659, lr = 0.000255, speed = 57871 tok/s
+Peak VRAM: 6.84 GB
+Step 25800: loss = 1.8227, lr = 0.000255, speed = 57897 tok/s
+Peak VRAM: 6.84 GB
+Step 25900: loss = 1.8548, lr = 0.000254, speed = 57922 tok/s
+Peak VRAM: 6.84 GB
+Step 26000: loss = 1.8761, lr = 0.000254, speed = 57947 tok/s
+Peak VRAM: 6.84 GB
+Step 26000: validation loss = 1.6944
+Step 26100: loss = 1.8610, lr = 0.000254, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 26200: loss = 1.7404, lr = 0.000253, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 26300: loss = 1.7387, lr = 0.000253, speed = 57771 tok/s
+Peak VRAM: 6.84 GB
+Step 26400: loss = 1.7834, lr = 0.000253, speed = 57795 tok/s
+Peak VRAM: 6.84 GB
+Step 26500: loss = 1.7621, lr = 0.000252, speed = 57819 tok/s
+Peak VRAM: 6.84 GB
+Step 26600: loss = 1.8363, lr = 0.000252, speed = 57843 tok/s
+Peak VRAM: 6.84 GB
+Step 26700: loss = 1.7766, lr = 0.000252, speed = 57867 tok/s
+Peak VRAM: 6.84 GB
+Step 26800: loss = 1.8418, lr = 0.000251, speed = 57891 tok/s
+Peak VRAM: 6.84 GB
+Step 26900: loss = 1.7109, lr = 0.000251, speed = 57915 tok/s
+Peak VRAM: 6.84 GB
+Step 27000: loss = 1.8437, lr = 0.000250, speed = 57938 tok/s
+Peak VRAM: 6.84 GB
+Step 27000: validation loss = 1.6762
+Step 27100: loss = 1.6748, lr = 0.000250, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 27200: loss = 1.8666, lr = 0.000250, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 27300: loss = 1.7520, lr = 0.000249, speed = 57769 tok/s
+Peak VRAM: 6.84 GB
+Step 27400: loss = 1.6517, lr = 0.000249, speed = 57793 tok/s
+Peak VRAM: 6.84 GB
+Step 27500: loss = 1.7621, lr = 0.000249, speed = 57816 tok/s
+Peak VRAM: 6.84 GB
+Step 27600: loss = 1.8562, lr = 0.000248, speed = 57840 tok/s
+Peak VRAM: 6.84 GB
+Step 27700: loss = 1.6858, lr = 0.000248, speed = 57863 tok/s
+Peak VRAM: 6.84 GB
+Step 27800: loss = 1.7004, lr = 0.000248, speed = 57886 tok/s
+Peak VRAM: 6.84 GB
+Step 27900: loss = 1.8337, lr = 0.000247, speed = 57910 tok/s
+Peak VRAM: 6.84 GB
+Step 28000: loss = 1.7014, lr = 0.000247, speed = 57931 tok/s
+Peak VRAM: 6.84 GB
+Step 28000: validation loss = 1.6742
+Step 28100: loss = 1.7450, lr = 0.000247, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 28200: loss = 1.9129, lr = 0.000246, speed = 57745 tok/s
+Peak VRAM: 6.84 GB
+Step 28300: loss = 1.8587, lr = 0.000246, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 28400: loss = 1.7340, lr = 0.000245, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 28500: loss = 1.8103, lr = 0.000245, speed = 57814 tok/s
+Peak VRAM: 6.84 GB
+Step 28600: loss = 1.7007, lr = 0.000245, speed = 57837 tok/s
+Peak VRAM: 6.84 GB
+Step 28700: loss = 1.8015, lr = 0.000244, speed = 57859 tok/s
+Peak VRAM: 6.84 GB
+Step 28800: loss = 1.7411, lr = 0.000244, speed = 57881 tok/s
+Peak VRAM: 6.84 GB
+Step 28900: loss = 1.7680, lr = 0.000244, speed = 57903 tok/s
+Peak VRAM: 6.84 GB
+Step 29000: loss = 1.7259, lr = 0.000243, speed = 57925 tok/s
+Peak VRAM: 6.84 GB
+Step 29000: validation loss = 1.6592
+Step 29100: loss = 1.6886, lr = 0.000243, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 29200: loss = 1.7608, lr = 0.000243, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 29300: loss = 1.6302, lr = 0.000242, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 29400: loss = 1.6241, lr = 0.000242, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 29500: loss = 1.8321, lr = 0.000241, speed = 57811 tok/s
+Peak VRAM: 6.84 GB
+Step 29600: loss = 1.8250, lr = 0.000241, speed = 57832 tok/s
+Peak VRAM: 6.84 GB
+Step 29700: loss = 1.7686, lr = 0.000241, speed = 57853 tok/s
+Peak VRAM: 6.84 GB
+Step 29800: loss = 1.7012, lr = 0.000240, speed = 57875 tok/s
+Peak VRAM: 6.84 GB
+Step 29900: loss = 1.7391, lr = 0.000240, speed = 57896 tok/s
+Peak VRAM: 6.84 GB
+Step 30000: loss = 1.7283, lr = 0.000240, speed = 57917 tok/s
+Peak VRAM: 6.84 GB
+Step 30000: validation loss = 1.6515
+Step 30100: loss = 1.7140, lr = 0.000239, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 30200: loss = 1.8776, lr = 0.000239, speed = 57745 tok/s
+Peak VRAM: 6.84 GB
+Step 30300: loss = 1.6449, lr = 0.000238, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 30400: loss = 1.7060, lr = 0.000238, speed = 57788 tok/s
+Peak VRAM: 6.84 GB
+Step 30500: loss = 1.7855, lr = 0.000238, speed = 57809 tok/s
+Peak VRAM: 6.84 GB
+Step 30600: loss = 1.6982, lr = 0.000237, speed = 57830 tok/s
+Peak VRAM: 6.84 GB
+Step 30700: loss = 1.7071, lr = 0.000237, speed = 57851 tok/s
+Peak VRAM: 6.84 GB
+Step 30800: loss = 1.7282, lr = 0.000236, speed = 57871 tok/s
+Peak VRAM: 6.84 GB
+Step 30900: loss = 1.7269, lr = 0.000236, speed = 57892 tok/s
+Peak VRAM: 6.84 GB
+Step 31000: loss = 1.7451, lr = 0.000236, speed = 57913 tok/s
+Peak VRAM: 6.84 GB
+Step 31000: validation loss = 1.6459
+Step 31100: loss = 1.7661, lr = 0.000235, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 31200: loss = 1.8078, lr = 0.000235, speed = 57745 tok/s
+Peak VRAM: 6.84 GB
+Step 31300: loss = 1.6623, lr = 0.000234, speed = 57764 tok/s
+Peak VRAM: 6.84 GB
+Step 31400: loss = 1.6645, lr = 0.000234, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 31500: loss = 1.8474, lr = 0.000234, speed = 57806 tok/s
+Peak VRAM: 6.84 GB
+Step 31600: loss = 1.7275, lr = 0.000233, speed = 57827 tok/s
+Peak VRAM: 6.84 GB
+Step 31700: loss = 1.6510, lr = 0.000233, speed = 57847 tok/s
+Peak VRAM: 6.84 GB
+Step 31800: loss = 1.6889, lr = 0.000233, speed = 57867 tok/s
+Peak VRAM: 6.84 GB
+Step 31900: loss = 1.6599, lr = 0.000232, speed = 57887 tok/s
+Peak VRAM: 6.84 GB
+Step 32000: loss = 1.6722, lr = 0.000232, speed = 57907 tok/s
+Peak VRAM: 6.84 GB
+Step 32000: validation loss = 1.6362
+Step 32100: loss = 1.6934, lr = 0.000231, speed = 57725 tok/s
+Peak VRAM: 6.84 GB
+Step 32200: loss = 1.7976, lr = 0.000231, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 32300: loss = 1.7543, lr = 0.000231, speed = 57764 tok/s
+Peak VRAM: 6.84 GB
+Step 32400: loss = 1.6835, lr = 0.000230, speed = 57784 tok/s
+Peak VRAM: 6.84 GB
+Step 32500: loss = 1.7375, lr = 0.000230, speed = 57805 tok/s
+Peak VRAM: 6.84 GB
+Step 32600: loss = 1.7279, lr = 0.000229, speed = 57824 tok/s
+Peak VRAM: 6.84 GB
+Step 32700: loss = 1.7194, lr = 0.000229, speed = 57844 tok/s
+Peak VRAM: 6.84 GB
+Step 32800: loss = 1.6688, lr = 0.000229, speed = 57864 tok/s
+Peak VRAM: 6.84 GB
+Step 32900: loss = 1.7752, lr = 0.000228, speed = 57883 tok/s
+Peak VRAM: 6.84 GB
+Step 33000: loss = 1.6095, lr = 0.000228, speed = 57903 tok/s
+Peak VRAM: 6.84 GB
+Step 33000: validation loss = 1.6270
+Step 33100: loss = 1.6884, lr = 0.000227, speed = 57727 tok/s
+Peak VRAM: 6.84 GB
+Step 33200: loss = 1.6566, lr = 0.000227, speed = 57747 tok/s
+Peak VRAM: 6.84 GB
+Step 33300: loss = 1.6365, lr = 0.000226, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 33400: loss = 1.6997, lr = 0.000226, speed = 57785 tok/s
+Peak VRAM: 6.84 GB
+Step 33500: loss = 1.7521, lr = 0.000226, speed = 57805 tok/s
+Peak VRAM: 6.84 GB
+Step 33600: loss = 1.8700, lr = 0.000225, speed = 57824 tok/s
+Peak VRAM: 6.84 GB
+Step 33700: loss = 1.6620, lr = 0.000225, speed = 57842 tok/s
+Peak VRAM: 6.84 GB
+Step 33800: loss = 1.6188, lr = 0.000224, speed = 57861 tok/s
+Peak VRAM: 6.84 GB
+Step 33900: loss = 1.6517, lr = 0.000224, speed = 57880 tok/s
+Peak VRAM: 6.84 GB
+Step 34000: loss = 1.6974, lr = 0.000224, speed = 57898 tok/s
+Peak VRAM: 6.84 GB
+Step 34000: validation loss = 1.6163
+Step 34100: loss = 1.7030, lr = 0.000223, speed = 57726 tok/s
+Peak VRAM: 6.84 GB
+Step 34200: loss = 1.6016, lr = 0.000223, speed = 57745 tok/s
+Peak VRAM: 6.84 GB
+Step 34300: loss = 1.6805, lr = 0.000222, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 34400: loss = 1.6569, lr = 0.000222, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 34500: loss = 1.6387, lr = 0.000222, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 34600: loss = 1.6927, lr = 0.000221, speed = 57819 tok/s
+Peak VRAM: 6.84 GB
+Step 34700: loss = 1.7313, lr = 0.000221, speed = 57837 tok/s
+Peak VRAM: 6.84 GB
+Step 34800: loss = 1.8175, lr = 0.000220, speed = 57855 tok/s
+Peak VRAM: 6.84 GB
+Step 34900: loss = 1.7119, lr = 0.000220, speed = 57873 tok/s
+Peak VRAM: 6.84 GB
+Step 35000: loss = 1.6716, lr = 0.000219, speed = 57892 tok/s
+Peak VRAM: 6.84 GB
+Step 35000: validation loss = 1.6190
+Step 35100: loss = 1.6624, lr = 0.000219, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 35200: loss = 1.6898, lr = 0.000219, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 35300: loss = 1.6143, lr = 0.000218, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 35400: loss = 1.6830, lr = 0.000218, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 35500: loss = 1.6104, lr = 0.000217, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 35600: loss = 1.7441, lr = 0.000217, speed = 57818 tok/s
+Peak VRAM: 6.84 GB
+Step 35700: loss = 1.7166, lr = 0.000217, speed = 57836 tok/s
+Peak VRAM: 6.84 GB
+Step 35800: loss = 1.6661, lr = 0.000216, speed = 57854 tok/s
+Peak VRAM: 6.84 GB
+Step 35900: loss = 1.7309, lr = 0.000216, speed = 57873 tok/s
+Peak VRAM: 6.84 GB
+Step 36000: loss = 1.5489, lr = 0.000215, speed = 57891 tok/s
+Peak VRAM: 6.84 GB
+Step 36000: validation loss = 1.6109
+Step 36100: loss = 1.6299, lr = 0.000215, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 36200: loss = 1.6933, lr = 0.000214, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 36300: loss = 1.7799, lr = 0.000214, speed = 57764 tok/s
+Peak VRAM: 6.84 GB
+Step 36400: loss = 1.5667, lr = 0.000214, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 36500: loss = 1.7845, lr = 0.000213, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 36600: loss = 1.6887, lr = 0.000213, speed = 57817 tok/s
+Peak VRAM: 6.84 GB
+Step 36700: loss = 1.7598, lr = 0.000212, speed = 57834 tok/s
+Peak VRAM: 6.84 GB
+Step 36800: loss = 1.7640, lr = 0.000212, speed = 57852 tok/s
+Peak VRAM: 6.84 GB
+Step 36900: loss = 1.6628, lr = 0.000211, speed = 57869 tok/s
+Peak VRAM: 6.84 GB
+Step 37000: loss = 1.7287, lr = 0.000211, speed = 57886 tok/s
+Peak VRAM: 6.84 GB
+Step 37000: validation loss = 1.5986
+Step 37100: loss = 1.6973, lr = 0.000211, speed = 57729 tok/s
+Peak VRAM: 6.84 GB
+Step 37200: loss = 1.6642, lr = 0.000210, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 37300: loss = 1.8818, lr = 0.000210, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 37400: loss = 1.6722, lr = 0.000209, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 37500: loss = 1.6946, lr = 0.000209, speed = 57798 tok/s
+Peak VRAM: 6.84 GB
+Step 37600: loss = 1.6827, lr = 0.000208, speed = 57816 tok/s
+Peak VRAM: 6.84 GB
+Step 37700: loss = 1.6161, lr = 0.000208, speed = 57833 tok/s
+Peak VRAM: 6.84 GB
+Step 37800: loss = 1.5390, lr = 0.000207, speed = 57849 tok/s
+Peak VRAM: 6.84 GB
+Step 37900: loss = 1.7138, lr = 0.000207, speed = 57866 tok/s
+Peak VRAM: 6.84 GB
+Step 38000: loss = 1.6509, lr = 0.000207, speed = 57883 tok/s
+Peak VRAM: 6.84 GB
+Step 38000: validation loss = 1.5892
+Step 38100: loss = 1.7357, lr = 0.000206, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 38200: loss = 1.6514, lr = 0.000206, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 38300: loss = 1.7784, lr = 0.000205, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 38400: loss = 1.5518, lr = 0.000205, speed = 57780 tok/s
+Peak VRAM: 6.84 GB
+Step 38500: loss = 1.7243, lr = 0.000204, speed = 57796 tok/s
+Peak VRAM: 6.84 GB
+Step 38600: loss = 1.5740, lr = 0.000204, speed = 57813 tok/s
+Peak VRAM: 6.84 GB
+Step 38700: loss = 1.6841, lr = 0.000203, speed = 57830 tok/s
+Peak VRAM: 6.84 GB
+Step 38800: loss = 1.7438, lr = 0.000203, speed = 57846 tok/s
+Peak VRAM: 6.84 GB
+Step 38900: loss = 1.6039, lr = 0.000203, speed = 57862 tok/s
+Peak VRAM: 6.84 GB
+Step 39000: loss = 1.6805, lr = 0.000202, speed = 57879 tok/s
+Peak VRAM: 6.84 GB
+Step 39000: validation loss = 1.5831
+Step 39100: loss = 1.7671, lr = 0.000202, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 39200: loss = 1.6385, lr = 0.000201, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 39300: loss = 1.7235, lr = 0.000201, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 39400: loss = 1.7115, lr = 0.000200, speed = 57777 tok/s
+Peak VRAM: 6.84 GB
+Step 39500: loss = 1.8323, lr = 0.000200, speed = 57793 tok/s
+Peak VRAM: 6.84 GB
+Step 39600: loss = 1.6218, lr = 0.000199, speed = 57810 tok/s
+Peak VRAM: 6.84 GB
+Step 39700: loss = 1.6835, lr = 0.000199, speed = 57826 tok/s
+Peak VRAM: 6.84 GB
+Step 39800: loss = 1.6520, lr = 0.000199, speed = 57841 tok/s
+Peak VRAM: 6.84 GB
+Step 39900: loss = 1.6165, lr = 0.000198, speed = 57857 tok/s
+Peak VRAM: 6.84 GB
+Step 40000: loss = 1.6857, lr = 0.000198, speed = 57873 tok/s
+Peak VRAM: 6.84 GB
+Step 40000: validation loss = 1.5872
+Step 40100: loss = 1.6467, lr = 0.000197, speed = 57726 tok/s
+Peak VRAM: 6.84 GB
+Step 40200: loss = 1.5652, lr = 0.000197, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 40300: loss = 1.7762, lr = 0.000196, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 40400: loss = 1.6895, lr = 0.000196, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 40500: loss = 1.7366, lr = 0.000195, speed = 57790 tok/s
+Peak VRAM: 6.84 GB
+Step 40600: loss = 1.7131, lr = 0.000195, speed = 57806 tok/s
+Peak VRAM: 6.84 GB
+Step 40700: loss = 1.7308, lr = 0.000195, speed = 57822 tok/s
+Peak VRAM: 6.84 GB
+Step 40800: loss = 1.6653, lr = 0.000194, speed = 57837 tok/s
+Peak VRAM: 6.84 GB
+Step 40900: loss = 1.6412, lr = 0.000194, speed = 57853 tok/s
+Peak VRAM: 6.84 GB
+Step 41000: loss = 1.5316, lr = 0.000193, speed = 57868 tok/s
+Peak VRAM: 6.84 GB
+Step 41000: validation loss = 1.5714
+Step 41100: loss = 1.5605, lr = 0.000193, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 41200: loss = 1.6834, lr = 0.000192, speed = 57739 tok/s
+Peak VRAM: 6.84 GB
+Step 41300: loss = 1.5262, lr = 0.000192, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 41400: loss = 1.7219, lr = 0.000191, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 41500: loss = 1.6692, lr = 0.000191, speed = 57785 tok/s
+Peak VRAM: 6.84 GB
+Step 41600: loss = 1.6256, lr = 0.000190, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 41700: loss = 1.7191, lr = 0.000190, speed = 57816 tok/s
+Peak VRAM: 6.84 GB
+Step 41800: loss = 1.7301, lr = 0.000190, speed = 57832 tok/s
+Peak VRAM: 6.84 GB
+Step 41900: loss = 1.7105, lr = 0.000189, speed = 57848 tok/s
+Peak VRAM: 6.84 GB
+Step 42000: loss = 1.6064, lr = 0.000189, speed = 57863 tok/s
+Peak VRAM: 6.84 GB
+Step 42000: validation loss = 1.5723
+Step 42100: loss = 1.6082, lr = 0.000188, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 42200: loss = 1.6166, lr = 0.000188, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 42300: loss = 1.4965, lr = 0.000187, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 42400: loss = 1.6189, lr = 0.000187, speed = 57771 tok/s
+Peak VRAM: 6.84 GB
+Step 42500: loss = 1.6524, lr = 0.000186, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 42600: loss = 1.6363, lr = 0.000186, speed = 57802 tok/s
+Peak VRAM: 6.84 GB
+Step 42700: loss = 1.7552, lr = 0.000185, speed = 57817 tok/s
+Peak VRAM: 6.84 GB
+Step 42800: loss = 1.6259, lr = 0.000185, speed = 57832 tok/s
+Peak VRAM: 6.84 GB
+Step 42900: loss = 1.6088, lr = 0.000184, speed = 57847 tok/s
+Peak VRAM: 6.84 GB
+Step 43000: loss = 1.6525, lr = 0.000184, speed = 57862 tok/s
+Peak VRAM: 6.84 GB
+Step 43000: validation loss = 1.5593
+Step 43100: loss = 1.7005, lr = 0.000184, speed = 57725 tok/s
+Peak VRAM: 6.84 GB
+Step 43200: loss = 1.6724, lr = 0.000183, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 43300: loss = 1.7021, lr = 0.000183, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 43400: loss = 1.6402, lr = 0.000182, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 43500: loss = 1.6165, lr = 0.000182, speed = 57784 tok/s
+Peak VRAM: 6.84 GB
+Step 43600: loss = 1.5307, lr = 0.000181, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 43700: loss = 1.6241, lr = 0.000181, speed = 57814 tok/s
+Peak VRAM: 6.84 GB
+Step 43800: loss = 1.7060, lr = 0.000180, speed = 57829 tok/s
+Peak VRAM: 6.84 GB
+Step 43900: loss = 1.6079, lr = 0.000180, speed = 57844 tok/s
+Peak VRAM: 6.84 GB
+Step 44000: loss = 1.5928, lr = 0.000179, speed = 57858 tok/s
+Peak VRAM: 6.84 GB
+Step 44000: validation loss = 1.5589
+Step 44100: loss = 1.6503, lr = 0.000179, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 44200: loss = 1.5535, lr = 0.000178, speed = 57738 tok/s
+Peak VRAM: 6.84 GB
+Step 44300: loss = 1.5801, lr = 0.000178, speed = 57753 tok/s
+Peak VRAM: 6.84 GB
+Step 44400: loss = 1.7981, lr = 0.000178, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 44500: loss = 1.6226, lr = 0.000177, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 44600: loss = 1.5462, lr = 0.000177, speed = 57797 tok/s
+Peak VRAM: 6.84 GB
+Step 44700: loss = 1.6385, lr = 0.000176, speed = 57811 tok/s
+Peak VRAM: 6.84 GB
+Step 44800: loss = 1.5776, lr = 0.000176, speed = 57826 tok/s
+Peak VRAM: 6.84 GB
+Step 44900: loss = 1.5728, lr = 0.000175, speed = 57840 tok/s
+Peak VRAM: 6.84 GB
+Step 45000: loss = 1.6051, lr = 0.000175, speed = 57854 tok/s
+Peak VRAM: 6.84 GB
+Step 45000: validation loss = 1.5554
+Step 45100: loss = 1.5556, lr = 0.000174, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 45200: loss = 1.6245, lr = 0.000174, speed = 57737 tok/s
+Peak VRAM: 6.84 GB
+Step 45300: loss = 1.5843, lr = 0.000173, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 45400: loss = 1.6768, lr = 0.000173, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 45500: loss = 1.5419, lr = 0.000172, speed = 57780 tok/s
+Peak VRAM: 6.84 GB
+Step 45600: loss = 1.5891, lr = 0.000172, speed = 57794 tok/s
+Peak VRAM: 6.84 GB
+Step 45700: loss = 1.6018, lr = 0.000171, speed = 57807 tok/s
+Peak VRAM: 6.84 GB
+Step 45800: loss = 1.6061, lr = 0.000171, speed = 57821 tok/s
+Peak VRAM: 6.84 GB
+Step 45900: loss = 1.5281, lr = 0.000171, speed = 57834 tok/s
+Peak VRAM: 6.84 GB
+Step 46000: loss = 1.4988, lr = 0.000170, speed = 57848 tok/s
+Peak VRAM: 6.84 GB
+Step 46000: validation loss = 1.5535
+Step 46100: loss = 1.6885, lr = 0.000170, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 46200: loss = 1.6018, lr = 0.000169, speed = 57734 tok/s
+Peak VRAM: 6.84 GB
+Step 46300: loss = 1.5835, lr = 0.000169, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 46400: loss = 1.6799, lr = 0.000168, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 46500: loss = 1.5827, lr = 0.000168, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 46600: loss = 1.6006, lr = 0.000167, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 46700: loss = 1.6593, lr = 0.000167, speed = 57802 tok/s
+Peak VRAM: 6.84 GB
+Step 46800: loss = 1.5905, lr = 0.000166, speed = 57816 tok/s
+Peak VRAM: 6.84 GB
+Step 46900: loss = 1.6054, lr = 0.000166, speed = 57830 tok/s
+Peak VRAM: 6.84 GB
+Step 47000: loss = 1.5006, lr = 0.000165, speed = 57843 tok/s
+Peak VRAM: 6.84 GB
+Step 47000: validation loss = 1.5405
+Step 47100: loss = 1.6561, lr = 0.000165, speed = 57719 tok/s
+Peak VRAM: 6.84 GB
+Step 47200: loss = 1.5754, lr = 0.000164, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 47300: loss = 1.6012, lr = 0.000164, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 47400: loss = 1.6262, lr = 0.000163, speed = 57760 tok/s
+Peak VRAM: 6.84 GB
+Step 47500: loss = 1.6033, lr = 0.000163, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 47600: loss = 1.4930, lr = 0.000163, speed = 57788 tok/s
+Peak VRAM: 6.84 GB
+Step 47700: loss = 1.6591, lr = 0.000162, speed = 57802 tok/s
+Peak VRAM: 6.84 GB
+Step 47800: loss = 1.7297, lr = 0.000162, speed = 57815 tok/s
+Peak VRAM: 6.84 GB
+Step 47900: loss = 1.6184, lr = 0.000161, speed = 57829 tok/s
+Peak VRAM: 6.84 GB
+Step 48000: loss = 1.6634, lr = 0.000161, speed = 57842 tok/s
+Peak VRAM: 6.84 GB
+Step 48000: validation loss = 1.5340
+Step 48100: loss = 1.5842, lr = 0.000160, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 48200: loss = 1.6148, lr = 0.000160, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 48300: loss = 1.5761, lr = 0.000159, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 48400: loss = 1.5897, lr = 0.000159, speed = 57760 tok/s
+Peak VRAM: 6.84 GB
+Step 48500: loss = 1.6108, lr = 0.000158, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 48600: loss = 1.6123, lr = 0.000158, speed = 57787 tok/s
+Peak VRAM: 6.84 GB
+Step 48700: loss = 1.4644, lr = 0.000157, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 48800: loss = 1.6149, lr = 0.000157, speed = 57814 tok/s
+Peak VRAM: 6.84 GB
+Step 48900: loss = 1.5450, lr = 0.000156, speed = 57827 tok/s
+Peak VRAM: 6.84 GB
+Step 49000: loss = 1.6872, lr = 0.000156, speed = 57840 tok/s
+Peak VRAM: 6.84 GB
+Step 49000: validation loss = 1.5305
+Step 49100: loss = 1.6992, lr = 0.000155, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 49200: loss = 1.6384, lr = 0.000155, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 49300: loss = 1.5208, lr = 0.000154, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 49400: loss = 1.6060, lr = 0.000154, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 49500: loss = 1.5936, lr = 0.000154, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 49600: loss = 1.7007, lr = 0.000153, speed = 57787 tok/s
+Peak VRAM: 6.84 GB
+Step 49700: loss = 1.5772, lr = 0.000153, speed = 57800 tok/s
+Peak VRAM: 6.84 GB
+Step 49800: loss = 1.7076, lr = 0.000152, speed = 57813 tok/s
+Peak VRAM: 6.84 GB
+Step 49900: loss = 1.5585, lr = 0.000152, speed = 57826 tok/s
+Peak VRAM: 6.84 GB
+Step 50000: loss = 1.6095, lr = 0.000151, speed = 57839 tok/s
+Peak VRAM: 6.84 GB
+Step 50000: validation loss = 1.5276
+Step 50100: loss = 1.5956, lr = 0.000151, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 50200: loss = 1.6229, lr = 0.000150, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 50300: loss = 1.7269, lr = 0.000150, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 50400: loss = 1.5591, lr = 0.000149, speed = 57760 tok/s
+Peak VRAM: 6.84 GB
+Step 50500: loss = 1.5958, lr = 0.000149, speed = 57773 tok/s
+Peak VRAM: 6.84 GB
+Step 50600: loss = 1.5552, lr = 0.000148, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 50700: loss = 1.5793, lr = 0.000148, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 50800: loss = 1.5223, lr = 0.000147, speed = 57811 tok/s
+Peak VRAM: 6.84 GB
+Step 50900: loss = 1.6852, lr = 0.000147, speed = 57824 tok/s
+Peak VRAM: 6.84 GB
+Step 51000: loss = 1.7017, lr = 0.000146, speed = 57837 tok/s
+Peak VRAM: 6.84 GB
+Step 51000: validation loss = 1.5148
+Step 51100: loss = 1.5768, lr = 0.000146, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 51200: loss = 1.6275, lr = 0.000146, speed = 57734 tok/s
+Peak VRAM: 6.84 GB
+Step 51300: loss = 1.5233, lr = 0.000145, speed = 57747 tok/s
+Peak VRAM: 6.84 GB
+Step 51400: loss = 1.5790, lr = 0.000145, speed = 57760 tok/s
+Peak VRAM: 6.84 GB
+Step 51500: loss = 1.5571, lr = 0.000144, speed = 57773 tok/s
+Peak VRAM: 6.84 GB
+Step 51600: loss = 1.5531, lr = 0.000144, speed = 57785 tok/s
+Peak VRAM: 6.84 GB
+Step 51700: loss = 1.6604, lr = 0.000143, speed = 57797 tok/s
+Peak VRAM: 6.84 GB
+Step 51800: loss = 1.5927, lr = 0.000143, speed = 57809 tok/s
+Peak VRAM: 6.84 GB
+Step 51900: loss = 1.5218, lr = 0.000142, speed = 57822 tok/s
+Peak VRAM: 6.84 GB
+Step 52000: loss = 1.6740, lr = 0.000142, speed = 57834 tok/s
+Peak VRAM: 6.84 GB
+Step 52000: validation loss = 1.5160
+Step 52100: loss = 1.5709, lr = 0.000141, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 52200: loss = 1.5859, lr = 0.000141, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 52300: loss = 1.6252, lr = 0.000140, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 52400: loss = 1.5576, lr = 0.000140, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 52500: loss = 1.5908, lr = 0.000139, speed = 57771 tok/s
+Peak VRAM: 6.84 GB
+Step 52600: loss = 1.6022, lr = 0.000139, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 52700: loss = 1.6404, lr = 0.000138, speed = 57795 tok/s
+Peak VRAM: 6.84 GB
+Step 52800: loss = 1.6199, lr = 0.000138, speed = 57807 tok/s
+Peak VRAM: 6.84 GB
+Step 52900: loss = 1.4997, lr = 0.000137, speed = 57819 tok/s
+Peak VRAM: 6.84 GB
+Step 53000: loss = 1.5012, lr = 0.000137, speed = 57831 tok/s
+Peak VRAM: 6.84 GB
+Step 53000: validation loss = 1.5121
+Step 53100: loss = 1.5453, lr = 0.000137, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 53200: loss = 1.5373, lr = 0.000136, speed = 57734 tok/s
+Peak VRAM: 6.84 GB
+Step 53300: loss = 1.6722, lr = 0.000136, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 53400: loss = 1.4846, lr = 0.000135, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 53500: loss = 1.6111, lr = 0.000135, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 53600: loss = 1.5925, lr = 0.000134, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 53700: loss = 1.6371, lr = 0.000134, speed = 57794 tok/s
+Peak VRAM: 6.84 GB
+Step 53800: loss = 1.5256, lr = 0.000133, speed = 57806 tok/s
+Peak VRAM: 6.84 GB
+Step 53900: loss = 1.5531, lr = 0.000133, speed = 57818 tok/s
+Peak VRAM: 6.84 GB
+Step 54000: loss = 1.6290, lr = 0.000132, speed = 57830 tok/s
+Peak VRAM: 6.84 GB
+Step 54000: validation loss = 1.5109
+Step 54100: loss = 1.4790, lr = 0.000132, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 54200: loss = 1.6183, lr = 0.000131, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 54300: loss = 1.5760, lr = 0.000131, speed = 57745 tok/s
+Peak VRAM: 6.84 GB
+Step 54400: loss = 1.5564, lr = 0.000130, speed = 57757 tok/s
+Peak VRAM: 6.84 GB
+Step 54500: loss = 1.5618, lr = 0.000130, speed = 57769 tok/s
+Peak VRAM: 6.84 GB
+Step 54600: loss = 1.5842, lr = 0.000129, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 54700: loss = 1.5622, lr = 0.000129, speed = 57793 tok/s
+Peak VRAM: 6.84 GB
+Step 54800: loss = 1.4996, lr = 0.000129, speed = 57805 tok/s
+Peak VRAM: 6.84 GB
+Step 54900: loss = 1.7551, lr = 0.000128, speed = 57817 tok/s
+Peak VRAM: 6.84 GB
+Step 55000: loss = 1.5337, lr = 0.000128, speed = 57828 tok/s
+Peak VRAM: 6.84 GB
+Step 55000: validation loss = 1.5132
+Step 55100: loss = 1.4432, lr = 0.000127, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 55200: loss = 1.5375, lr = 0.000127, speed = 57732 tok/s
+Peak VRAM: 6.84 GB
+Step 55300: loss = 1.5024, lr = 0.000126, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 55400: loss = 1.6104, lr = 0.000126, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 55500: loss = 1.6559, lr = 0.000125, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 55600: loss = 1.5483, lr = 0.000125, speed = 57779 tok/s
+Peak VRAM: 6.84 GB
+Step 55700: loss = 1.6305, lr = 0.000124, speed = 57790 tok/s
+Peak VRAM: 6.84 GB
+Step 55800: loss = 1.5256, lr = 0.000124, speed = 57802 tok/s
+Peak VRAM: 6.84 GB
+Step 55900: loss = 1.5621, lr = 0.000123, speed = 57813 tok/s
+Peak VRAM: 6.84 GB
+Step 56000: loss = 1.4758, lr = 0.000123, speed = 57825 tok/s
+Peak VRAM: 6.84 GB
+Step 56000: validation loss = 1.5057
+Step 56100: loss = 1.5720, lr = 0.000122, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 56200: loss = 1.6114, lr = 0.000122, speed = 57731 tok/s
+Peak VRAM: 6.84 GB
+Step 56300: loss = 1.6346, lr = 0.000122, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 56400: loss = 1.5873, lr = 0.000121, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 56500: loss = 1.4789, lr = 0.000121, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 56600: loss = 1.6004, lr = 0.000120, speed = 57777 tok/s
+Peak VRAM: 6.84 GB
+Step 56700: loss = 1.5875, lr = 0.000120, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 56800: loss = 1.5973, lr = 0.000119, speed = 57800 tok/s
+Peak VRAM: 6.84 GB
+Step 56900: loss = 1.4619, lr = 0.000119, speed = 57811 tok/s
+Peak VRAM: 6.84 GB
+Step 57000: loss = 1.5467, lr = 0.000118, speed = 57823 tok/s
+Peak VRAM: 6.84 GB
+Step 57000: validation loss = 1.5000
+Step 57100: loss = 1.6558, lr = 0.000118, speed = 57719 tok/s
+Peak VRAM: 6.84 GB
+Step 57200: loss = 1.6723, lr = 0.000117, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 57300: loss = 1.5874, lr = 0.000117, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 57400: loss = 1.5290, lr = 0.000116, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 57500: loss = 1.5882, lr = 0.000116, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 57600: loss = 1.5741, lr = 0.000116, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 57700: loss = 1.6234, lr = 0.000115, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 57800: loss = 1.5679, lr = 0.000115, speed = 57797 tok/s
+Peak VRAM: 6.84 GB
+Step 57900: loss = 1.6060, lr = 0.000114, speed = 57808 tok/s
+Peak VRAM: 6.84 GB
+Step 58000: loss = 1.5621, lr = 0.000114, speed = 57819 tok/s
+Peak VRAM: 6.84 GB
+Step 58000: validation loss = 1.5090
+Step 58100: loss = 1.5110, lr = 0.000113, speed = 57718 tok/s
+Peak VRAM: 6.84 GB
+Step 58200: loss = 1.4725, lr = 0.000113, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 58300: loss = 1.6290, lr = 0.000112, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 58400: loss = 1.5202, lr = 0.000112, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 58500: loss = 1.5855, lr = 0.000111, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 58600: loss = 1.5280, lr = 0.000111, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 58700: loss = 1.6026, lr = 0.000110, speed = 57785 tok/s
+Peak VRAM: 6.84 GB
+Step 58800: loss = 1.5333, lr = 0.000110, speed = 57796 tok/s
+Peak VRAM: 6.84 GB
+Step 58900: loss = 1.5719, lr = 0.000110, speed = 57807 tok/s
+Peak VRAM: 6.84 GB
+Step 59000: loss = 1.5061, lr = 0.000109, speed = 57817 tok/s
+Peak VRAM: 6.84 GB
+Step 59000: validation loss = 1.4983
+Step 59100: loss = 1.6567, lr = 0.000109, speed = 57717 tok/s
+Peak VRAM: 6.84 GB
+Step 59200: loss = 1.5470, lr = 0.000108, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 59300: loss = 1.4861, lr = 0.000108, speed = 57739 tok/s
+Peak VRAM: 6.84 GB
+Step 59400: loss = 1.4851, lr = 0.000107, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 59500: loss = 1.6870, lr = 0.000107, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 59600: loss = 1.6696, lr = 0.000106, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 59700: loss = 1.5535, lr = 0.000106, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 59800: loss = 1.5549, lr = 0.000105, speed = 57794 tok/s
+Peak VRAM: 6.84 GB
+Step 59900: loss = 1.6270, lr = 0.000105, speed = 57804 tok/s
+Peak VRAM: 6.84 GB
+Step 60000: loss = 1.5832, lr = 0.000105, speed = 57815 tok/s
+Peak VRAM: 6.84 GB
+Step 60000: validation loss = 1.4947
+Step 60100: loss = 1.5943, lr = 0.000104, speed = 57717 tok/s
+Peak VRAM: 6.84 GB
+Step 60200: loss = 1.4971, lr = 0.000104, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 60300: loss = 1.5877, lr = 0.000103, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 60400: loss = 1.4780, lr = 0.000103, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 60500: loss = 1.5458, lr = 0.000102, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 60600: loss = 1.6139, lr = 0.000102, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 60700: loss = 1.5743, lr = 0.000101, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 60800: loss = 1.5179, lr = 0.000101, speed = 57793 tok/s
+Peak VRAM: 6.84 GB
+Step 60900: loss = 1.6360, lr = 0.000101, speed = 57804 tok/s
+Peak VRAM: 6.84 GB
+Step 61000: loss = 1.5714, lr = 0.000100, speed = 57815 tok/s
+Peak VRAM: 6.84 GB
+Step 61000: validation loss = 1.4887
+Step 61100: loss = 1.6525, lr = 0.000100, speed = 57719 tok/s
+Peak VRAM: 6.84 GB
+Step 61200: loss = 1.6021, lr = 0.000099, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 61300: loss = 1.5497, lr = 0.000099, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 61400: loss = 1.5701, lr = 0.000098, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 61500: loss = 1.6006, lr = 0.000098, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 61600: loss = 1.5994, lr = 0.000097, speed = 57773 tok/s
+Peak VRAM: 6.84 GB
+Step 61700: loss = 1.5519, lr = 0.000097, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 61800: loss = 1.5594, lr = 0.000097, speed = 57794 tok/s
+Peak VRAM: 6.84 GB
+Step 61900: loss = 1.6063, lr = 0.000096, speed = 57804 tok/s
+Peak VRAM: 6.84 GB
+Step 62000: loss = 1.5461, lr = 0.000096, speed = 57815 tok/s
+Peak VRAM: 6.84 GB
+Step 62000: validation loss = 1.4848
+Step 62100: loss = 1.5414, lr = 0.000095, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 62200: loss = 1.5420, lr = 0.000095, speed = 57731 tok/s
+Peak VRAM: 6.84 GB
+Step 62300: loss = 1.5674, lr = 0.000094, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 62400: loss = 1.4967, lr = 0.000094, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 62500: loss = 1.5818, lr = 0.000093, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 62600: loss = 1.5873, lr = 0.000093, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 62700: loss = 1.5401, lr = 0.000093, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 62800: loss = 1.6481, lr = 0.000092, speed = 57794 tok/s
+Peak VRAM: 6.84 GB
+Step 62900: loss = 1.5483, lr = 0.000092, speed = 57804 tok/s
+Peak VRAM: 6.84 GB
+Step 63000: loss = 1.5005, lr = 0.000091, speed = 57814 tok/s
+Peak VRAM: 6.84 GB
+Step 63000: validation loss = 1.4836
+Step 63100: loss = 1.6202, lr = 0.000091, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 63200: loss = 1.5039, lr = 0.000090, speed = 57732 tok/s
+Peak VRAM: 6.84 GB
+Step 63300: loss = 1.6370, lr = 0.000090, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 63400: loss = 1.4897, lr = 0.000089, speed = 57753 tok/s
+Peak VRAM: 6.84 GB
+Step 63500: loss = 1.5767, lr = 0.000089, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 63600: loss = 1.5618, lr = 0.000089, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 63700: loss = 1.6922, lr = 0.000088, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 63800: loss = 1.5832, lr = 0.000088, speed = 57793 tok/s
+Peak VRAM: 6.84 GB
+Step 63900: loss = 1.5678, lr = 0.000087, speed = 57803 tok/s
+Peak VRAM: 6.84 GB
+Step 64000: loss = 1.4950, lr = 0.000087, speed = 57813 tok/s
+Peak VRAM: 6.84 GB
+Step 64000: validation loss = 1.4801
+Step 64100: loss = 1.4585, lr = 0.000086, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 64200: loss = 1.5937, lr = 0.000086, speed = 57731 tok/s
+Peak VRAM: 6.84 GB
+Step 64300: loss = 1.4253, lr = 0.000086, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 64400: loss = 1.5238, lr = 0.000085, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 64500: loss = 1.5221, lr = 0.000085, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 64600: loss = 1.5723, lr = 0.000084, speed = 57771 tok/s
+Peak VRAM: 6.84 GB
+Step 64700: loss = 1.4835, lr = 0.000084, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 64800: loss = 1.6370, lr = 0.000083, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 64900: loss = 1.6051, lr = 0.000083, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 65000: loss = 1.5634, lr = 0.000083, speed = 57811 tok/s
+Peak VRAM: 6.84 GB
+Step 65000: validation loss = 1.4783
+Step 65100: loss = 1.5619, lr = 0.000082, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 65200: loss = 1.5790, lr = 0.000082, speed = 57731 tok/s
+Peak VRAM: 6.84 GB
+Step 65300: loss = 1.5333, lr = 0.000081, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 65400: loss = 1.5125, lr = 0.000081, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 65500: loss = 1.4308, lr = 0.000081, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 65600: loss = 1.5756, lr = 0.000080, speed = 57771 tok/s
+Peak VRAM: 6.84 GB
+Step 65700: loss = 1.5176, lr = 0.000080, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 65800: loss = 1.5140, lr = 0.000079, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 65900: loss = 1.6080, lr = 0.000079, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 66000: loss = 1.5940, lr = 0.000078, speed = 57811 tok/s
+Peak VRAM: 6.84 GB
+Step 66000: validation loss = 1.4733
+Step 66100: loss = 1.6077, lr = 0.000078, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 66200: loss = 1.4581, lr = 0.000078, speed = 57731 tok/s
+Peak VRAM: 6.84 GB
+Step 66300: loss = 1.6397, lr = 0.000077, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 66400: loss = 1.4780, lr = 0.000077, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 66500: loss = 1.5164, lr = 0.000076, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 66600: loss = 1.6917, lr = 0.000076, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 66700: loss = 1.4804, lr = 0.000076, speed = 57780 tok/s
+Peak VRAM: 6.84 GB
+Step 66800: loss = 1.6103, lr = 0.000075, speed = 57790 tok/s
+Peak VRAM: 6.84 GB
+Step 66900: loss = 1.4645, lr = 0.000075, speed = 57800 tok/s
+Peak VRAM: 6.84 GB
+Step 67000: loss = 1.5553, lr = 0.000074, speed = 57810 tok/s
+Peak VRAM: 6.84 GB
+Step 67000: validation loss = 1.4653
+Step 67100: loss = 1.6199, lr = 0.000074, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 67200: loss = 1.4713, lr = 0.000074, speed = 57732 tok/s
+Peak VRAM: 6.84 GB
+Step 67300: loss = 1.6131, lr = 0.000073, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 67400: loss = 1.5337, lr = 0.000073, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 67500: loss = 1.6640, lr = 0.000072, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 67600: loss = 1.5461, lr = 0.000072, speed = 57771 tok/s
+Peak VRAM: 6.84 GB
+Step 67700: loss = 1.6325, lr = 0.000071, speed = 57780 tok/s
+Peak VRAM: 6.84 GB
+Step 67800: loss = 1.5254, lr = 0.000071, speed = 57790 tok/s
+Peak VRAM: 6.84 GB
+Step 67900: loss = 1.5105, lr = 0.000071, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 68000: loss = 1.6136, lr = 0.000070, speed = 57809 tok/s
+Peak VRAM: 6.84 GB
+Step 68000: validation loss = 1.4687
+Step 68100: loss = 1.4996, lr = 0.000070, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 68200: loss = 1.5523, lr = 0.000069, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 68300: loss = 1.5733, lr = 0.000069, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 68400: loss = 1.5928, lr = 0.000069, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 68500: loss = 1.5164, lr = 0.000068, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 68600: loss = 1.5138, lr = 0.000068, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 68700: loss = 1.5221, lr = 0.000067, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 68800: loss = 1.5567, lr = 0.000067, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 68900: loss = 1.4797, lr = 0.000067, speed = 57800 tok/s
+Peak VRAM: 6.84 GB
+Step 69000: loss = 1.5749, lr = 0.000066, speed = 57809 tok/s
+Peak VRAM: 6.84 GB
+Step 69000: validation loss = 1.4581
+Step 69100: loss = 1.4683, lr = 0.000066, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 69200: loss = 1.5476, lr = 0.000066, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 69300: loss = 1.5716, lr = 0.000065, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 69400: loss = 1.5556, lr = 0.000065, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 69500: loss = 1.4839, lr = 0.000064, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 69600: loss = 1.4400, lr = 0.000064, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 69700: loss = 1.4646, lr = 0.000064, speed = 57780 tok/s
+Peak VRAM: 6.84 GB
+Step 69800: loss = 1.5476, lr = 0.000063, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 69900: loss = 1.6542, lr = 0.000063, speed = 57798 tok/s
+Peak VRAM: 6.84 GB
+Step 70000: loss = 1.3965, lr = 0.000062, speed = 57808 tok/s
+Peak VRAM: 6.84 GB
+Step 70000: validation loss = 1.4601
+Step 70100: loss = 1.4787, lr = 0.000062, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 70200: loss = 1.5254, lr = 0.000062, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 70300: loss = 1.5139, lr = 0.000061, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 70400: loss = 1.5014, lr = 0.000061, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 70500: loss = 1.4523, lr = 0.000060, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 70600: loss = 1.5716, lr = 0.000060, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 70700: loss = 1.5196, lr = 0.000060, speed = 57779 tok/s
+Peak VRAM: 6.84 GB
+Step 70800: loss = 1.4304, lr = 0.000059, speed = 57788 tok/s
+Peak VRAM: 6.84 GB
+Step 70900: loss = 1.5096, lr = 0.000059, speed = 57798 tok/s
+Peak VRAM: 6.84 GB
+Step 71000: loss = 1.4276, lr = 0.000059, speed = 57807 tok/s
+Peak VRAM: 6.84 GB
+Step 71000: validation loss = 1.4528
+Step 71100: loss = 1.5299, lr = 0.000058, speed = 57724 tok/s
+Peak VRAM: 6.84 GB
+Step 71200: loss = 1.5804, lr = 0.000058, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 71300: loss = 1.5479, lr = 0.000057, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 71400: loss = 1.5138, lr = 0.000057, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 71500: loss = 1.4876, lr = 0.000057, speed = 57760 tok/s
+Peak VRAM: 6.84 GB
+Step 71600: loss = 1.5298, lr = 0.000056, speed = 57769 tok/s
+Peak VRAM: 6.84 GB
+Step 71700: loss = 1.5764, lr = 0.000056, speed = 57778 tok/s
+Peak VRAM: 6.84 GB
+Step 71800: loss = 1.5677, lr = 0.000056, speed = 57787 tok/s
+Peak VRAM: 6.84 GB
+Step 71900: loss = 1.4575, lr = 0.000055, speed = 57796 tok/s
+Peak VRAM: 6.84 GB
+Step 72000: loss = 1.5817, lr = 0.000055, speed = 57805 tok/s
+Peak VRAM: 6.84 GB
+Step 72000: validation loss = 1.4525
+Step 72100: loss = 1.5204, lr = 0.000055, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 72200: loss = 1.6093, lr = 0.000054, speed = 57733 tok/s
+Peak VRAM: 6.84 GB
+Step 72300: loss = 1.4873, lr = 0.000054, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 72400: loss = 1.4648, lr = 0.000053, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 72500: loss = 1.4800, lr = 0.000053, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 72600: loss = 1.5590, lr = 0.000053, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 72700: loss = 1.4602, lr = 0.000052, speed = 57777 tok/s
+Peak VRAM: 6.84 GB
+Step 72800: loss = 1.5213, lr = 0.000052, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 72900: loss = 1.6180, lr = 0.000052, speed = 57795 tok/s
+Peak VRAM: 6.84 GB
+Step 73000: loss = 1.5019, lr = 0.000051, speed = 57804 tok/s
+Peak VRAM: 6.84 GB
+Step 73000: validation loss = 1.4492
+Step 73100: loss = 1.4268, lr = 0.000051, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 73200: loss = 1.4841, lr = 0.000051, speed = 57732 tok/s
+Peak VRAM: 6.84 GB
+Step 73300: loss = 1.5355, lr = 0.000050, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 73400: loss = 1.5596, lr = 0.000050, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 73500: loss = 1.6138, lr = 0.000050, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 73600: loss = 1.5100, lr = 0.000049, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 73700: loss = 1.4508, lr = 0.000049, speed = 57776 tok/s
+Peak VRAM: 6.84 GB
+Step 73800: loss = 1.4615, lr = 0.000048, speed = 57785 tok/s
+Peak VRAM: 6.84 GB
+Step 73900: loss = 1.5355, lr = 0.000048, speed = 57794 tok/s
+Peak VRAM: 6.84 GB
+Step 74000: loss = 1.5599, lr = 0.000048, speed = 57802 tok/s
+Peak VRAM: 6.84 GB
+Step 74000: validation loss = 1.4503
+Step 74100: loss = 1.5170, lr = 0.000047, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 74200: loss = 1.6116, lr = 0.000047, speed = 57732 tok/s
+Peak VRAM: 6.84 GB
+Step 74300: loss = 1.6188, lr = 0.000047, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 74400: loss = 1.5959, lr = 0.000046, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 74500: loss = 1.5047, lr = 0.000046, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 74600: loss = 1.4654, lr = 0.000046, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 74700: loss = 1.4304, lr = 0.000045, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 74800: loss = 1.5494, lr = 0.000045, speed = 57784 tok/s
+Peak VRAM: 6.84 GB
+Step 74900: loss = 1.4501, lr = 0.000045, speed = 57793 tok/s
+Peak VRAM: 6.84 GB
+Step 75000: loss = 1.5656, lr = 0.000044, speed = 57801 tok/s
+Peak VRAM: 6.84 GB
+Step 75000: validation loss = 1.4454
+Step 75100: loss = 1.6027, lr = 0.000044, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 75200: loss = 1.4401, lr = 0.000044, speed = 57731 tok/s
+Peak VRAM: 6.84 GB
+Step 75300: loss = 1.4995, lr = 0.000043, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 75400: loss = 1.4746, lr = 0.000043, speed = 57749 tok/s
+Peak VRAM: 6.84 GB
+Step 75500: loss = 1.4860, lr = 0.000043, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 75600: loss = 1.4361, lr = 0.000042, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 75700: loss = 1.4993, lr = 0.000042, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 75800: loss = 1.6066, lr = 0.000042, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 75900: loss = 1.6338, lr = 0.000041, speed = 57792 tok/s
+Peak VRAM: 6.84 GB
+Step 76000: loss = 1.5183, lr = 0.000041, speed = 57800 tok/s
+Peak VRAM: 6.84 GB
+Step 76000: validation loss = 1.4359
+Step 76100: loss = 1.5441, lr = 0.000041, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 76200: loss = 1.5553, lr = 0.000040, speed = 57732 tok/s
+Peak VRAM: 6.84 GB
+Step 76300: loss = 1.5064, lr = 0.000040, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 76400: loss = 1.4318, lr = 0.000040, speed = 57749 tok/s
+Peak VRAM: 6.84 GB
+Step 76500: loss = 1.4761, lr = 0.000039, speed = 57757 tok/s
+Peak VRAM: 6.84 GB
+Step 76600: loss = 1.4196, lr = 0.000039, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 76700: loss = 1.5131, lr = 0.000039, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 76800: loss = 1.5756, lr = 0.000038, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 76900: loss = 1.4906, lr = 0.000038, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 77000: loss = 1.4781, lr = 0.000038, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 77000: validation loss = 1.4400
+Step 77100: loss = 1.5378, lr = 0.000038, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 77200: loss = 1.6056, lr = 0.000037, speed = 57731 tok/s
+Peak VRAM: 6.84 GB
+Step 77300: loss = 1.5196, lr = 0.000037, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 77400: loss = 1.4868, lr = 0.000037, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 77500: loss = 1.5843, lr = 0.000036, speed = 57757 tok/s
+Peak VRAM: 6.84 GB
+Step 77600: loss = 1.6333, lr = 0.000036, speed = 57765 tok/s
+Peak VRAM: 6.84 GB
+Step 77700: loss = 1.4808, lr = 0.000036, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 77800: loss = 1.4564, lr = 0.000035, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 77900: loss = 1.4259, lr = 0.000035, speed = 57791 tok/s
+Peak VRAM: 6.84 GB
+Step 78000: loss = 1.5504, lr = 0.000035, speed = 57799 tok/s
+Peak VRAM: 6.84 GB
+Step 78000: validation loss = 1.4399
+Step 78100: loss = 1.5204, lr = 0.000034, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 78200: loss = 1.4213, lr = 0.000034, speed = 57732 tok/s
+Peak VRAM: 6.84 GB
+Step 78300: loss = 1.4223, lr = 0.000034, speed = 57740 tok/s
+Peak VRAM: 6.84 GB
+Step 78400: loss = 1.5238, lr = 0.000034, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 78500: loss = 1.4915, lr = 0.000033, speed = 57756 tok/s
+Peak VRAM: 6.84 GB
+Step 78600: loss = 1.5358, lr = 0.000033, speed = 57764 tok/s
+Peak VRAM: 6.84 GB
+Step 78700: loss = 1.4774, lr = 0.000033, speed = 57773 tok/s
+Peak VRAM: 6.84 GB
+Step 78800: loss = 1.4774, lr = 0.000032, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 78900: loss = 1.5338, lr = 0.000032, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 79000: loss = 1.5265, lr = 0.000032, speed = 57797 tok/s
+Peak VRAM: 6.84 GB
+Step 79000: validation loss = 1.4380
+Step 79100: loss = 1.4936, lr = 0.000031, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 79200: loss = 1.4740, lr = 0.000031, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 79300: loss = 1.5434, lr = 0.000031, speed = 57738 tok/s
+Peak VRAM: 6.84 GB
+Step 79400: loss = 1.4157, lr = 0.000031, speed = 57746 tok/s
+Peak VRAM: 6.84 GB
+Step 79500: loss = 1.5774, lr = 0.000030, speed = 57754 tok/s
+Peak VRAM: 6.84 GB
+Step 79600: loss = 1.5362, lr = 0.000030, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 79700: loss = 1.5323, lr = 0.000030, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 79800: loss = 1.4770, lr = 0.000029, speed = 57778 tok/s
+Peak VRAM: 6.84 GB
+Step 79900: loss = 1.4412, lr = 0.000029, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 80000: loss = 1.4342, lr = 0.000029, speed = 57794 tok/s
+Peak VRAM: 6.84 GB
+Step 80000: validation loss = 1.4378
+Step 80100: loss = 1.6069, lr = 0.000029, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 80200: loss = 1.6047, lr = 0.000028, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 80300: loss = 1.5359, lr = 0.000028, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 80400: loss = 1.4432, lr = 0.000028, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 80500: loss = 1.4927, lr = 0.000028, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 80600: loss = 1.5624, lr = 0.000027, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 80700: loss = 1.4407, lr = 0.000027, speed = 57769 tok/s
+Peak VRAM: 6.84 GB
+Step 80800: loss = 1.4622, lr = 0.000027, speed = 57776 tok/s
+Peak VRAM: 6.84 GB
+Step 80900: loss = 1.4402, lr = 0.000026, speed = 57784 tok/s
+Peak VRAM: 6.84 GB
+Step 81000: loss = 1.4676, lr = 0.000026, speed = 57792 tok/s
+Peak VRAM: 6.84 GB
+Step 81000: validation loss = 1.4311
+Step 81100: loss = 1.5012, lr = 0.000026, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 81200: loss = 1.4930, lr = 0.000026, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 81300: loss = 1.5349, lr = 0.000025, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 81400: loss = 1.5923, lr = 0.000025, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 81500: loss = 1.5597, lr = 0.000025, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 81600: loss = 1.4806, lr = 0.000025, speed = 57760 tok/s
+Peak VRAM: 6.84 GB
+Step 81700: loss = 1.4687, lr = 0.000024, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 81800: loss = 1.4751, lr = 0.000024, speed = 57776 tok/s
+Peak VRAM: 6.84 GB
+Step 81900: loss = 1.5662, lr = 0.000024, speed = 57784 tok/s
+Peak VRAM: 6.84 GB
+Step 82000: loss = 1.5634, lr = 0.000024, speed = 57792 tok/s
+Peak VRAM: 6.84 GB
+Step 82000: validation loss = 1.4286
+Step 82100: loss = 1.5780, lr = 0.000023, speed = 57720 tok/s
+Peak VRAM: 6.84 GB
+Step 82200: loss = 1.4705, lr = 0.000023, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 82300: loss = 1.4468, lr = 0.000023, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 82400: loss = 1.5252, lr = 0.000023, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 82500: loss = 1.4968, lr = 0.000022, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 82600: loss = 1.5825, lr = 0.000022, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 82700: loss = 1.4368, lr = 0.000022, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 82800: loss = 1.4781, lr = 0.000022, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 82900: loss = 1.5819, lr = 0.000021, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 83000: loss = 1.5623, lr = 0.000021, speed = 57790 tok/s
+Peak VRAM: 6.84 GB
+Step 83000: validation loss = 1.4313
+Step 83100: loss = 1.4299, lr = 0.000021, speed = 57719 tok/s
+Peak VRAM: 6.84 GB
+Step 83200: loss = 1.4612, lr = 0.000021, speed = 57727 tok/s
+Peak VRAM: 6.84 GB
+Step 83300: loss = 1.6026, lr = 0.000020, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 83400: loss = 1.4465, lr = 0.000020, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 83500: loss = 1.5320, lr = 0.000020, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 83600: loss = 1.5507, lr = 0.000020, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 83700: loss = 1.4088, lr = 0.000019, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 83800: loss = 1.6315, lr = 0.000019, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 83900: loss = 1.5366, lr = 0.000019, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 84000: loss = 1.4299, lr = 0.000019, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 84000: validation loss = 1.4253
+Step 84100: loss = 1.5194, lr = 0.000019, speed = 57719 tok/s
+Peak VRAM: 6.84 GB
+Step 84200: loss = 1.4409, lr = 0.000018, speed = 57727 tok/s
+Peak VRAM: 6.84 GB
+Step 84300: loss = 1.4523, lr = 0.000018, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 84400: loss = 1.5272, lr = 0.000018, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 84500: loss = 1.4955, lr = 0.000018, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 84600: loss = 1.5422, lr = 0.000017, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 84700: loss = 1.5559, lr = 0.000017, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 84800: loss = 1.4967, lr = 0.000017, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 84900: loss = 1.4411, lr = 0.000017, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 85000: loss = 1.5144, lr = 0.000017, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 85000: validation loss = 1.4264
+Step 85100: loss = 1.5451, lr = 0.000016, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 85200: loss = 1.4618, lr = 0.000016, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 85300: loss = 1.5296, lr = 0.000016, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 85400: loss = 1.5517, lr = 0.000016, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 85500: loss = 1.3844, lr = 0.000015, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 85600: loss = 1.6338, lr = 0.000015, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 85700: loss = 1.3994, lr = 0.000015, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 85800: loss = 1.6124, lr = 0.000015, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 85900: loss = 1.5263, lr = 0.000015, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 86000: loss = 1.4591, lr = 0.000014, speed = 57790 tok/s
+Peak VRAM: 6.84 GB
+Step 86000: validation loss = 1.4302
+Step 86100: loss = 1.4542, lr = 0.000014, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 86200: loss = 1.4266, lr = 0.000014, speed = 57729 tok/s
+Peak VRAM: 6.84 GB
+Step 86300: loss = 1.5181, lr = 0.000014, speed = 57737 tok/s
+Peak VRAM: 6.84 GB
+Step 86400: loss = 1.5391, lr = 0.000014, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 86500: loss = 1.4936, lr = 0.000013, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 86600: loss = 1.5566, lr = 0.000013, speed = 57760 tok/s
+Peak VRAM: 6.84 GB
+Step 86700: loss = 1.4298, lr = 0.000013, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 86800: loss = 1.5765, lr = 0.000013, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 86900: loss = 1.6048, lr = 0.000013, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 87000: loss = 1.5074, lr = 0.000012, speed = 57790 tok/s
+Peak VRAM: 6.84 GB
+Step 87000: validation loss = 1.4192
+Step 87100: loss = 1.5426, lr = 0.000012, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 87200: loss = 1.3873, lr = 0.000012, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 87300: loss = 1.4645, lr = 0.000012, speed = 57737 tok/s
+Peak VRAM: 6.84 GB
+Step 87400: loss = 1.6501, lr = 0.000012, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 87500: loss = 1.4705, lr = 0.000012, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 87600: loss = 1.4222, lr = 0.000011, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 87700: loss = 1.4719, lr = 0.000011, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 87800: loss = 1.5105, lr = 0.000011, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 87900: loss = 1.5816, lr = 0.000011, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 88000: loss = 1.4268, lr = 0.000011, speed = 57789 tok/s
+Peak VRAM: 6.84 GB
+Step 88000: validation loss = 1.4158
+Step 88100: loss = 1.4662, lr = 0.000010, speed = 57723 tok/s
+Peak VRAM: 6.84 GB
+Step 88200: loss = 1.4682, lr = 0.000010, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 88300: loss = 1.4094, lr = 0.000010, speed = 57737 tok/s
+Peak VRAM: 6.84 GB
+Step 88400: loss = 1.4682, lr = 0.000010, speed = 57745 tok/s
+Peak VRAM: 6.84 GB
+Step 88500: loss = 1.5902, lr = 0.000010, speed = 57752 tok/s
+Peak VRAM: 6.84 GB
+Step 88600: loss = 1.6076, lr = 0.000010, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 88700: loss = 1.5218, lr = 0.000009, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 88800: loss = 1.4410, lr = 0.000009, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 88900: loss = 1.4194, lr = 0.000009, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 89000: loss = 1.3939, lr = 0.000009, speed = 57788 tok/s
+Peak VRAM: 6.84 GB
+Step 89000: validation loss = 1.4191
+Step 89100: loss = 1.4168, lr = 0.000009, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 89200: loss = 1.4110, lr = 0.000009, speed = 57730 tok/s
+Peak VRAM: 6.84 GB
+Step 89300: loss = 1.5021, lr = 0.000008, speed = 57737 tok/s
+Peak VRAM: 6.84 GB
+Step 89400: loss = 1.5769, lr = 0.000008, speed = 57744 tok/s
+Peak VRAM: 6.84 GB
+Step 89500: loss = 1.4068, lr = 0.000008, speed = 57751 tok/s
+Peak VRAM: 6.84 GB
+Step 89600: loss = 1.5044, lr = 0.000008, speed = 57759 tok/s
+Peak VRAM: 6.84 GB
+Step 89700: loss = 1.4524, lr = 0.000008, speed = 57766 tok/s
+Peak VRAM: 6.84 GB
+Step 89800: loss = 1.4729, lr = 0.000008, speed = 57773 tok/s
+Peak VRAM: 6.84 GB
+Step 89900: loss = 1.4570, lr = 0.000008, speed = 57780 tok/s
+Peak VRAM: 6.84 GB
+Step 90000: loss = 1.4576, lr = 0.000007, speed = 57787 tok/s
+Peak VRAM: 6.84 GB
+Step 90000: validation loss = 1.4194
+Step 90100: loss = 1.5588, lr = 0.000007, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 90200: loss = 1.4538, lr = 0.000007, speed = 57729 tok/s
+Peak VRAM: 6.84 GB
+Step 90300: loss = 1.4177, lr = 0.000007, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 90400: loss = 1.4039, lr = 0.000007, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 90500: loss = 1.5583, lr = 0.000007, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 90600: loss = 1.4486, lr = 0.000007, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 90700: loss = 1.4396, lr = 0.000006, speed = 57765 tok/s
+Peak VRAM: 6.84 GB
+Step 90800: loss = 1.4020, lr = 0.000006, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 90900: loss = 1.4947, lr = 0.000006, speed = 57779 tok/s
+Peak VRAM: 6.84 GB
+Step 91000: loss = 1.4131, lr = 0.000006, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 91000: validation loss = 1.4194
+Step 91100: loss = 1.5215, lr = 0.000006, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 91200: loss = 1.4869, lr = 0.000006, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 91300: loss = 1.6118, lr = 0.000006, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 91400: loss = 1.4825, lr = 0.000005, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 91500: loss = 1.5155, lr = 0.000005, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 91600: loss = 1.6010, lr = 0.000005, speed = 57758 tok/s
+Peak VRAM: 6.84 GB
+Step 91700: loss = 1.4874, lr = 0.000005, speed = 57765 tok/s
+Peak VRAM: 6.84 GB
+Step 91800: loss = 1.5829, lr = 0.000005, speed = 57772 tok/s
+Peak VRAM: 6.84 GB
+Step 91900: loss = 1.4634, lr = 0.000005, speed = 57779 tok/s
+Peak VRAM: 6.84 GB
+Step 92000: loss = 1.3517, lr = 0.000005, speed = 57786 tok/s
+Peak VRAM: 6.84 GB
+Step 92000: validation loss = 1.4191
+Step 92100: loss = 1.5183, lr = 0.000005, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 92200: loss = 1.3688, lr = 0.000005, speed = 57729 tok/s
+Peak VRAM: 6.84 GB
+Step 92300: loss = 1.5075, lr = 0.000004, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 92400: loss = 1.5533, lr = 0.000004, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 92500: loss = 1.4664, lr = 0.000004, speed = 57750 tok/s
+Peak VRAM: 6.84 GB
+Step 92600: loss = 1.4777, lr = 0.000004, speed = 57757 tok/s
+Peak VRAM: 6.84 GB
+Step 92700: loss = 1.4469, lr = 0.000004, speed = 57764 tok/s
+Peak VRAM: 6.84 GB
+Step 92800: loss = 1.4477, lr = 0.000004, speed = 57771 tok/s
+Peak VRAM: 6.84 GB
+Step 92900: loss = 1.5502, lr = 0.000004, speed = 57778 tok/s
+Peak VRAM: 6.84 GB
+Step 93000: loss = 1.4746, lr = 0.000004, speed = 57785 tok/s
+Peak VRAM: 6.84 GB
+Step 93000: validation loss = 1.4149
+Step 93100: loss = 1.4560, lr = 0.000004, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 93200: loss = 1.6129, lr = 0.000003, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 93300: loss = 1.5093, lr = 0.000003, speed = 57736 tok/s
+Peak VRAM: 6.84 GB
+Step 93400: loss = 1.4936, lr = 0.000003, speed = 57743 tok/s
+Peak VRAM: 6.84 GB
+Step 93500: loss = 1.4562, lr = 0.000003, speed = 57749 tok/s
+Peak VRAM: 6.84 GB
+Step 93600: loss = 1.4411, lr = 0.000003, speed = 57756 tok/s
+Peak VRAM: 6.84 GB
+Step 93700: loss = 1.4591, lr = 0.000003, speed = 57763 tok/s
+Peak VRAM: 6.84 GB
+Step 93800: loss = 1.4328, lr = 0.000003, speed = 57770 tok/s
+Peak VRAM: 6.84 GB
+Step 93900: loss = 1.4354, lr = 0.000003, speed = 57777 tok/s
+Peak VRAM: 6.84 GB
+Step 94000: loss = 1.5968, lr = 0.000003, speed = 57784 tok/s
+Peak VRAM: 6.84 GB
+Step 94000: validation loss = 1.4088
+Step 94100: loss = 1.4516, lr = 0.000003, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 94200: loss = 1.5376, lr = 0.000003, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 94300: loss = 1.6491, lr = 0.000002, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 94400: loss = 1.5191, lr = 0.000002, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 94500: loss = 1.5488, lr = 0.000002, speed = 57749 tok/s
+Peak VRAM: 6.84 GB
+Step 94600: loss = 1.5529, lr = 0.000002, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 94700: loss = 1.5079, lr = 0.000002, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 94800: loss = 1.5127, lr = 0.000002, speed = 57769 tok/s
+Peak VRAM: 6.84 GB
+Step 94900: loss = 1.4596, lr = 0.000002, speed = 57776 tok/s
+Peak VRAM: 6.84 GB
+Step 95000: loss = 1.4661, lr = 0.000002, speed = 57783 tok/s
+Peak VRAM: 6.84 GB
+Step 95000: validation loss = 1.4248
+Step 95100: loss = 1.4264, lr = 0.000002, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 95200: loss = 1.4433, lr = 0.000002, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 95300: loss = 1.3836, lr = 0.000002, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 95400: loss = 1.5057, lr = 0.000002, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 95500: loss = 1.4108, lr = 0.000002, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 95600: loss = 1.5065, lr = 0.000001, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 95700: loss = 1.3434, lr = 0.000001, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 95800: loss = 1.4246, lr = 0.000001, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 95900: loss = 1.6337, lr = 0.000001, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 96000: loss = 1.3859, lr = 0.000001, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 96000: validation loss = 1.4158
+Step 96100: loss = 1.4393, lr = 0.000001, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 96200: loss = 1.4504, lr = 0.000001, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 96300: loss = 1.5181, lr = 0.000001, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 96400: loss = 1.5003, lr = 0.000001, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 96500: loss = 1.5859, lr = 0.000001, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 96600: loss = 1.4535, lr = 0.000001, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 96700: loss = 1.5267, lr = 0.000001, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 96800: loss = 1.5869, lr = 0.000001, speed = 57769 tok/s
+Peak VRAM: 6.84 GB
+Step 96900: loss = 1.4510, lr = 0.000001, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 97000: loss = 1.5188, lr = 0.000001, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 97000: validation loss = 1.4189
+Step 97100: loss = 1.5266, lr = 0.000001, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 97200: loss = 1.5022, lr = 0.000001, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 97300: loss = 1.5665, lr = 0.000001, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 97400: loss = 1.4773, lr = 0.000001, speed = 57742 tok/s
+Peak VRAM: 6.84 GB
+Step 97500: loss = 1.4644, lr = 0.000000, speed = 57749 tok/s
+Peak VRAM: 6.84 GB
+Step 97600: loss = 1.5678, lr = 0.000000, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 97700: loss = 1.3641, lr = 0.000000, speed = 57762 tok/s
+Peak VRAM: 6.84 GB
+Step 97800: loss = 1.4158, lr = 0.000000, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 97900: loss = 1.4598, lr = 0.000000, speed = 57775 tok/s
+Peak VRAM: 6.84 GB
+Step 98000: loss = 1.4105, lr = 0.000000, speed = 57782 tok/s
+Peak VRAM: 6.84 GB
+Step 98000: validation loss = 1.4218
+Step 98100: loss = 1.4169, lr = 0.000000, speed = 57722 tok/s
+Peak VRAM: 6.84 GB
+Step 98200: loss = 1.5543, lr = 0.000000, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 98300: loss = 1.4433, lr = 0.000000, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 98400: loss = 1.5580, lr = 0.000000, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 98500: loss = 1.3683, lr = 0.000000, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 98600: loss = 1.4645, lr = 0.000000, speed = 57755 tok/s
+Peak VRAM: 6.84 GB
+Step 98700: loss = 1.5341, lr = 0.000000, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 98800: loss = 1.4566, lr = 0.000000, speed = 57768 tok/s
+Peak VRAM: 6.84 GB
+Step 98900: loss = 1.4139, lr = 0.000000, speed = 57774 tok/s
+Peak VRAM: 6.84 GB
+Step 99000: loss = 1.4596, lr = 0.000000, speed = 57781 tok/s
+Peak VRAM: 6.84 GB
+Step 99000: validation loss = 1.4196
+Step 99100: loss = 1.5469, lr = 0.000000, speed = 57721 tok/s
+Peak VRAM: 6.84 GB
+Step 99200: loss = 1.4445, lr = 0.000000, speed = 57728 tok/s
+Peak VRAM: 6.84 GB
+Step 99300: loss = 1.4566, lr = 0.000000, speed = 57735 tok/s
+Peak VRAM: 6.84 GB
+Step 99400: loss = 1.4669, lr = 0.000000, speed = 57741 tok/s
+Peak VRAM: 6.84 GB
+Step 99500: loss = 1.5255, lr = 0.000000, speed = 57748 tok/s
+Peak VRAM: 6.84 GB
+Step 99600: loss = 1.4259, lr = 0.000000, speed = 57754 tok/s
+Peak VRAM: 6.84 GB
+Step 99700: loss = 1.4932, lr = 0.000000, speed = 57761 tok/s
+Peak VRAM: 6.84 GB
+Step 99800: loss = 1.5072, lr = 0.000000, speed = 57767 tok/s
+Peak VRAM: 6.84 GB
+Step 99900: loss = 1.4092, lr = 0.000000, speed = 57773 tok/s
+Peak VRAM: 6.84 GB
+Training complete. Model saved to TinyStoriesV2-GPT4-model.pt
