@@ -1,40 +1,30 @@
 #pragma once
-// C++ / LibTorch port of the GPT architecture in model.py.
-// Same hyperparameters, same layer structure, same weight tying.
-
 #include <torch/torch.h>
-#include <cmath>
 #include <utility>
+#include "gpt_config.h"
 
-struct GPTConfig {
-    int64_t vocab_size = 50257;
-    int64_t block_size = 256;
-    int64_t n_layer    = 8;
-    int64_t n_head     = 8;
-    int64_t n_embd     = 384;
-    double  dropout    = 0.1;
-};
-
-// ---------------------------------------------------------------------------
-// CausalSelfAttention
-// ---------------------------------------------------------------------------
+// --- CausalSelfAttention -----------------------------------------------
+// Direct port of CausalSelfAttention in model.py.
 struct CausalSelfAttentionImpl : torch::nn::Module {
-    explicit CausalSelfAttentionImpl(const GPTConfig& config);
+    explicit CausalSelfAttentionImpl(const GPTConfig& cfg);
+
     torch::Tensor forward(torch::Tensor x);
 
     int64_t n_head;
+    int64_t n_embd;
     double dropout_p;
+
     torch::nn::Linear c_attn{nullptr};
     torch::nn::Linear c_proj{nullptr};
-    torch::Tensor bias; // causal mask buffer, registered so it moves with .to(device)
+    torch::Tensor bias; // causal mask buffer, not a trainable parameter
 };
 TORCH_MODULE(CausalSelfAttention);
 
-// ---------------------------------------------------------------------------
-// Block (attention + MLP with residual connections)
-// ---------------------------------------------------------------------------
+// --- Block ---------------------------------------------------------------
+// Direct port of Block in model.py.
 struct BlockImpl : torch::nn::Module {
-    explicit BlockImpl(const GPTConfig& config);
+    explicit BlockImpl(const GPTConfig& cfg);
+
     torch::Tensor forward(torch::Tensor x);
 
     torch::nn::LayerNorm ln1{nullptr};
@@ -44,31 +34,33 @@ struct BlockImpl : torch::nn::Module {
 };
 TORCH_MODULE(Block);
 
-// ---------------------------------------------------------------------------
-// GPT
-// ---------------------------------------------------------------------------
+// --- GPT -------------------------------------------------------------------
+// Direct port of GPT in model.py.
+//
+// Weight tying: unlike Python (`self.lm_head.weight = self.wte.weight`,
+// which works because nn.Module.__setattr__ keeps _parameters in sync),
+// libtorch has no such hook — reassigning a registered module's `weight`
+// member after construction leaves a stale, separately-optimized duplicate
+// in its parameter map. So there is no separate lm_head module here at all;
+// the output projection reuses wte.weight directly in forward(), which is
+// the only way to get genuine single-tensor weight tying in libtorch.
 struct GPTImpl : torch::nn::Module {
-    explicit GPTImpl(const GPTConfig& config);
+    explicit GPTImpl(const GPTConfig& cfg);
 
-    // Returns {logits, loss}. loss is an undefined Tensor if targets is nullopt.
+    // Mirrors forward(idx, targets=None) -> (logits, loss)
     std::pair<torch::Tensor, torch::Tensor> forward(
         torch::Tensor idx,
-        c10::optional<torch::Tensor> targets = c10::nullopt);
+        torch::optional<torch::Tensor> targets = torch::nullopt
+    );
 
     GPTConfig config;
+
     torch::nn::Embedding wte{nullptr};
     torch::nn::Embedding wpe{nullptr};
     torch::nn::Dropout drop{nullptr};
     torch::nn::ModuleList h{nullptr};
     torch::nn::LayerNorm ln_f{nullptr};
-    // NOTE: there is no separate lm_head module. The output projection reuses
-    // wte->weight directly (logits = x @ wte.weight^T), which is what true
-    // weight tying requires: a single shared Tensor/gradient, not two
-    // separately-registered parameters that happen to start out equal.
-    // (Re-pointing a second nn::Linear's `weight` member at wte->weight,
-    // as a naive port of model.py's `self.lm_head.weight = self.wte.weight`
-    // would do in LibTorch, leaves a stale, ungrounded duplicate parameter
-    // registered under lm_head - it silently receives no gradient instead of
-    // truly sharing one. Using wte->weight directly avoids that trap.)
+    // No lm_head module — see comment above. Output projection is computed
+    // in forward() via torch::nn::functional::linear(x, wte->weight).
 };
 TORCH_MODULE(GPT);

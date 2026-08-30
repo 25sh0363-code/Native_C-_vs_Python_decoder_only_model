@@ -1,125 +1,113 @@
-// C++ / LibTorch port of test.py: loads a checkpoint, generates text
-// autoregressively with temperature + top-k filtering, times it, and
-// writes results to generation_output.txt.
-//
-// NOTE (faithfully ported from test.py, not a bug introduced here): the
-// original script scales logits by temperature and restricts to the top-k
-// logits, but then samples via argmax rather than multinomial sampling.
-// Since softmax/argmax is monotonic in the logits, temperature has no
-// effect on which token is picked - only top_k does. This port reproduces
-// that exact behavior for fidelity.
-
-#include "gpt_model.h"
-#include "bpe_tokenizer.h"
-
 #include <torch/torch.h>
-
-#include <chrono>
-#include <fstream>
 #include <iostream>
-#include <string>
-#include <vector>
+#include <chrono>
+#include <limits>
+#include "gpt_config.h"
+#include "gpt_model.h"
 
-namespace {
+// ---------------------------------------------------------------------
+// TOKENIZATION GAP: this file assumes you already have prompt token ids
+// as a std::vector<int64_t>. GPT-2 BPE encode/decode is not implemented
+// here. Two options:
+//   1. Keep tokenization in Python: encode the prompt with tiktoken,
+//      pass the ids in (e.g. via a small file or argv), run only this
+//      generation loop natively, decode the output ids back in Python.
+//   2. Port a real BPE encoder/decoder (~150 lines) using an exported
+//      vocab.bpe/encoder.json, for fully native end-to-end inference.
+// Which one you need depends on whether your paper's benchmark scope is
+// "training loop only" or "full native pipeline including tokenization."
+// ---------------------------------------------------------------------
 
-const std::string checkpoint_path = "TinyStoriesV2-GPT4-model.pt";
-
-std::pair<std::string, int64_t> generate(
-        GPT& model,
-        const GPT2Tokenizer& tok,
-        torch::Device device,
-        const std::string& prompt,
-        int64_t max_new_tokens = 256,
-        double temperature = 0.4,
-        int64_t top_k = 50) {
+// Port of generate() in test.py.
+torch::Tensor generate(
+    GPT& model,
+    torch::Tensor idx,           // [1, T] token ids
+    int64_t max_new_tokens,
+    double temperature,
+    int64_t top_k,
+    const GPTConfig& cfg,
+    int64_t eot_token
+) {
     model->eval();
     torch::NoGradGuard no_grad;
 
-    auto ids = tok.encode(prompt);
-    auto idx = torch::from_blob(ids.data(), {static_cast<int64_t>(ids.size())},
-                                 torch::kInt32).to(torch::kLong).unsqueeze(0).to(device);
-    int64_t start_len = idx.size(1);
-
-    for (int64_t step = 0; step < max_new_tokens; ++step) {
+    for (int64_t i = 0; i < max_new_tokens; ++i) {
         int64_t T = idx.size(1);
-        int64_t from = std::max<int64_t>(0, T - model->config.block_size);
-        auto idx_cond = idx.index({torch::indexing::Slice(),
-                                     torch::indexing::Slice(from, T)});
+        auto idx_cond = T <= cfg.block_size
+            ? idx
+            : idx.slice(/*dim=*/1, T - cfg.block_size, T);
 
-        auto [logits_full, unused] = model->forward(idx_cond);
-        auto logits = logits_full.index({torch::indexing::Slice(), -1, torch::indexing::Slice()})
-                          / temperature;
+        auto [logits, unused_loss] = model->forward(idx_cond);
+        (void)unused_loss;
 
-        auto topk = torch::topk(logits, std::min(top_k, logits.size(-1)));
-        auto values = std::get<0>(topk);
-        auto min_keep = values.index({torch::indexing::Slice(), -1}).unsqueeze(-1);
-        logits = logits.masked_fill(logits < min_keep, -std::numeric_limits<float>::infinity());
+        auto last_logits = logits.index(
+            {torch::indexing::Slice(), -1, torch::indexing::Slice()}
+        ) / temperature;
 
-        auto probs = torch::softmax(logits, -1);
-        auto next_token = std::get<1>(torch::max(probs, /*dim=*/-1, /*keepdim=*/true));
+        auto topk_vals = std::get<0>(last_logits.topk(top_k, /*dim=*/-1));
+        auto threshold = topk_vals.index({torch::indexing::Slice(), -1}).unsqueeze(-1);
+        last_logits = last_logits.masked_fill(
+            last_logits < threshold, -std::numeric_limits<float>::infinity());
 
-        if (next_token.item<int64_t>() == tok.eot_token()) break;
-        idx = torch::cat({idx, next_token}, 1);
+        auto probs = torch::softmax(last_logits, -1);
+        auto next_token = probs.argmax(-1, /*keepdim=*/true);
+
+        if (next_token.item<int64_t>() == eot_token) break;
+        idx = torch::cat({idx, next_token}, /*dim=*/1);
     }
 
-    int64_t num_generated = idx.size(1) - start_len;
-    auto idx_cpu = idx.to(torch::kCPU).squeeze(0);
-    std::vector<int32_t> out_ids(idx_cpu.data_ptr<int64_t>(),
-                                   idx_cpu.data_ptr<int64_t>() + idx_cpu.size(0));
-    return {tok.decode(out_ids), num_generated};
+    return idx;
 }
 
-} // namespace
-
-int main(int argc, char** argv) {
-    std::string encoder_json = "encoder.json";
-    std::string vocab_bpe = "vocab.bpe";
-    if (argc > 1) encoder_json = argv[1];
-    if (argc > 2) vocab_bpe = argv[2];
-
-    torch::Device device = torch::kCPU;
-    if (torch::cuda::is_available()) {
-        device = torch::kCUDA;
-    }
-    std::cout << "Using device: " << (device.is_cuda() ? "cuda" : "cpu") << "\n";
-
-    GPTConfig config{};
-    GPT model(config);
-
+// Loads a checkpoint written by train.cpp's save_checkpoint(): a nested
+// archive with "model", "optimizer", "step" sub-archives. Only "model"
+// is needed for inference.
+void load_model_checkpoint(GPT& model, const std::string& path) {
     torch::serialize::InputArchive archive;
-    archive.load_from(checkpoint_path, device);
-    model->load(archive);
+    archive.load_from(path);
+
+    torch::serialize::InputArchive model_archive;
+    archive.read("model", model_archive);
+    model->load(model_archive);
+}
+
+int main() {
+    torch::Device device = torch::kCPU;
+    if (torch::cuda::is_available()) device = torch::kCUDA;
+
+    GPTConfig cfg;
+    GPT model(cfg);
+
+    load_model_checkpoint(model, "checkpoints/TinyStoriesV2-GPT4-model.pt");
     model->to(device);
     model->eval();
 
     std::cout << "Model loaded successfully.\n";
 
-    GPT2Tokenizer tok(encoder_json, vocab_bpe);
-    std::cout << "Model is ready for text generation.\n";
-
-    std::string prompt = "A small dog found a shiny blue ball";
+    // Placeholder prompt ids — see tokenization gap note above.
+    // Replace with real BPE-encoded ids for "A small dog found a shiny blue ball"
+    std::vector<int64_t> prompt_ids = {32, 1402, 3290}; // TODO: real encode()
+    auto idx = torch::tensor(prompt_ids, torch::kLong).unsqueeze(0).to(device);
 
     if (device.is_cuda()) torch::cuda::synchronize();
     auto start = std::chrono::steady_clock::now();
 
-    auto [output_text, num_generated] = generate(model, tok, device, prompt);
+    auto out = generate(
+        model, idx,
+        /*max_new_tokens=*/256, /*temperature=*/0.4, /*top_k=*/50,
+        cfg, /*eot_token=*/50256
+    );
 
     if (device.is_cuda()) torch::cuda::synchronize();
-    double elapsed = std::chrono::duration<double>(
+    auto elapsed = std::chrono::duration<double>(
         std::chrono::steady_clock::now() - start).count();
-    double tok_per_sec = elapsed > 0 ? static_cast<double>(num_generated) / elapsed : 0.0;
 
-    std::cout << output_text << "\n\n";
+    int64_t num_generated = out.size(1) - (int64_t)prompt_ids.size();
+    double tok_per_sec = elapsed > 0.0 ? num_generated / elapsed : 0.0;
+
     std::cout << "Generated " << num_generated << " tokens in " << elapsed
               << " sec (" << tok_per_sec << " tok/s)\n";
 
-    std::ofstream out("generation_output.txt");
-    out << "Prompt: " << prompt << "\n\n";
-    out << "Output:\n" << output_text << "\n\n";
-    out << "Tokens generated: " << num_generated << "\n";
-    out << "Time taken: " << elapsed << " sec\n";
-    out << "Tokens/sec: " << tok_per_sec << "\n";
-
-    std::cout << "Saved results to generation_output.txt\n";
+    // TODO: decode(out) back to text once a BPE decoder is wired in.
     return 0;
 }
