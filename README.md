@@ -317,7 +317,7 @@ The observed sustained training throughput on an RTX 4090 was:
 Using the midpoints of the observed ranges:
 
 \[
-\frac{97{,}500}{60{,}000}=1.625
+97,500/60,000=1.625
 \]
 
 The C++ implementation achieved approximately **1.63×** Python's training throughput, or approximately **62.5% higher** throughput.
