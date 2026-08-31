@@ -350,26 +350,6 @@ Median summary:
 | Median recorded system RAM | **864.7 MB** | 1,055 MB | C++ uses ~18.0% less |
 | Median recorded GPU memory | **164.78 MB** | 545 MB | C++ uses ~69.8% less |
 
-Inference-throughput ratio:
-
-\[
-\frac{190.6}{129}=1.4775
-\]
-
-Thus, C++ achieved approximately **47.8% higher recorded inference throughput**.
-
-System-RAM reduction:
-
-\[
-\frac{1055-864.7}{1055}\times100\approx18.0\%
-\]
-
-GPU-memory reduction:
-
-\[
-\frac{545-164.78}{545}\times100\approx69.8\%
-\]
-
 ---
 
 ## Important limitations
@@ -388,24 +368,13 @@ The results therefore reflect the complete tested configurations, including thei
 
 The C++ GPT-2 BPE tokenizer has an ASCII-oriented approximation of the full Unicode pre-tokenizer regex used by `tiktoken`. It is appropriate for English TinyStories-style text but can diverge on non-ASCII input such as accented text, CJK characters, or emoji.
 
-### Framework comparison
-
-The C++ model uses LibTorch rather than a framework-free custom CUDA backend. This project compares:
-
-```text
-Python/PyTorch API versus C++/LibTorch API
-```
-
-not a language-only or framework-free CUDA comparison.
-
-
 ### Sample outputs
 
--Python model
+-Python model:
     A small dog found a shiny ball. The dog wanted the ball. The dog tried to get the ball, but it was too high. The dog was sad.
     Then, a big bird came. The bird saw the dog and the shiny ball. The bird wanted to help. The bird flew up and got the ball for the dog. The dog was happy. The dog and the bird played with the shiny ball all day.
 
--C++ model
+-C++ model:
     A small dog found a shiny ball. The dog wanted to play with the ball. The dog ran to the ball and gave it a big push. The ball rolled and rolled. The dog was happy.
     The dog saw a big tree. The dog wanted to play with the ball. The dog pushed the ball with his nose. The ball rolled and rolled. The dog chased the ball. The dog was very happy.
     But then, the ball rolled into a hole. The dog tried to get the ball out, but it was too deep. The dog could not get the ball out. The dog was sad too. The end.
@@ -428,14 +397,6 @@ Timing: CUDA synchronize immediately before and after each run
 Reported metric: Median generation time and median tokens/sec
 Memory: Same tool and same measurement point
 ```
-
-For a fixed-length run:
-
-\[
-\text{tokens/sec}=\frac{128}{\text{elapsed seconds}}
-\]
-
-This controls the amount of autoregressive work and makes elapsed time directly comparable.
 
 ---
 
