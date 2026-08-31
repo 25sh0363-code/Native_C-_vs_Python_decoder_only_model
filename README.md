@@ -294,11 +294,11 @@ The generation program loads the C++ checkpoint, tokenizes the prompt, generates
 | Validation iterations | 200 |
 
 \[
-32 \times 256 = 8{,}192 \text{ tokens per training step}
+32 * 256 = 8,192 ( tokens per training step)
 \]
 
 \[
-100{,}000 \times 8{,}192 = 819{,}200{,}000 \text{ nominal training tokens}
+100,000 * 8,192 = 819,200,000 ( nominal training tokens)
 \]
 
 ---
