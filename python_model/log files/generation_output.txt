@@ -1,9 +1,11 @@
-Prompt: A small dog found a shiny blue ball
+Prompt: A small dog found a shiny ball
 
 Output:
-A small dog found a shiny blue ball. The dog wanted the ball, so he took it from the dog. The dog was sad and did not know what to do.
-Then, a big bird came and took the ball away. The dog and the cat were very sad. They did not get the ball back. The dog and the cat learned that they should not take things that do not belong to them.
+A small dog found a shiny ball. The dog wanted the ball. The dog tried to get the ball, but it was too high. The dog was sad.
+Then, a big bird came. The bird saw the dog and the shiny ball. The bird wanted to help. The bird flew up and got the ball for the dog. The dog was happy. The dog and the bird played with the shiny ball all day.
 
-Tokens generated: 76
-Time taken: 3.15 sec
-Tokens/sec: 24.10
+Tokens generated: 80
+Time taken: 0.62 sec
+Tokens/sec: 129.08
+Peak RAM usage: 1055.78 MB
+Peak GPU memory usage: 545.68 MB

@@ -2,26 +2,14 @@
 #include <iostream>
 #include <chrono>
 #include <limits>
+#include <sys/resource.h>
+#include <c10/cuda/CUDACachingAllocator.h>
 #include "gpt_config.h"
 #include "gpt_model.h"
 
-// ---------------------------------------------------------------------
-// TOKENIZATION GAP: this file assumes you already have prompt token ids
-// as a std::vector<int64_t>. GPT-2 BPE encode/decode is not implemented
-// here. Two options:
-//   1. Keep tokenization in Python: encode the prompt with tiktoken,
-//      pass the ids in (e.g. via a small file or argv), run only this
-//      generation loop natively, decode the output ids back in Python.
-//   2. Port a real BPE encoder/decoder (~150 lines) using an exported
-//      vocab.bpe/encoder.json, for fully native end-to-end inference.
-// Which one you need depends on whether your paper's benchmark scope is
-// "training loop only" or "full native pipeline including tokenization."
-// ---------------------------------------------------------------------
-
-// Port of generate() in test.py.
 torch::Tensor generate(
     GPT& model,
-    torch::Tensor idx,           // [1, T] token ids
+    torch::Tensor idx,
     int64_t max_new_tokens,
     double temperature,
     int64_t top_k,
@@ -59,9 +47,6 @@ torch::Tensor generate(
     return idx;
 }
 
-// Loads a checkpoint written by train.cpp's save_checkpoint(): a nested
-// archive with "model", "optimizer", "step" sub-archives. Only "model"
-// is needed for inference.
 void load_model_checkpoint(GPT& model, const std::string& path) {
     torch::serialize::InputArchive archive;
     archive.load_from(path);
@@ -84,12 +69,13 @@ int main() {
 
     std::cout << "Model loaded successfully.\n";
 
-    // Placeholder prompt ids — see tokenization gap note above.
-    // Replace with real BPE-encoded ids for "A small dog found a shiny blue ball"
-    std::vector<int64_t> prompt_ids = {32, 1402, 3290}; // TODO: real encode()
+    std::vector<int64_t> prompt_ids = {32, 1402, 3290, 1043, 257, 22441, 2613};
     auto idx = torch::tensor(prompt_ids, torch::kLong).unsqueeze(0).to(device);
 
-    if (device.is_cuda()) torch::cuda::synchronize();
+    if (device.is_cuda()) {
+        torch::cuda::synchronize();
+        c10::cuda::CUDACachingAllocator::resetPeakStats(0);
+    }
     auto start = std::chrono::steady_clock::now();
 
     auto out = generate(
@@ -108,6 +94,21 @@ int main() {
     std::cout << "Generated " << num_generated << " tokens in " << elapsed
               << " sec (" << tok_per_sec << " tok/s)\n";
 
-    // TODO: decode(out) back to text once a BPE decoder is wired in.
+    std::cout << "Generated token ids: ";
+    for (int64_t i = 0; i < out.size(1); ++i) {
+        std::cout << out[0][i].item<int64_t>() << " ";
+    }
+    std::cout << "\n";
+
+    struct rusage usage;
+    getrusage(RUSAGE_SELF, &usage);
+    std::cout << "Peak RAM usage: " << (usage.ru_maxrss / 1024.0) << " MB\n";
+
+    if (device.is_cuda()) {
+        auto stats = c10::cuda::CUDACachingAllocator::getDeviceStats(0);
+        double peak_vram_mb = stats.allocated_bytes[0].peak / (1024.0 * 1024.0);
+        std::cout << "Peak GPU memory usage: " << peak_vram_mb << " MB\n";
+    }
+
     return 0;
 }
